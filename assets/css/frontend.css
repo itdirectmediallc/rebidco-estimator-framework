@@ -1,0 +1,2386 @@
+/* Estimator Framework frontend styles. */
+.bid-pdx-estimator {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    color: #0f172a;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    box-shadow: none;
+}
+
+.bid-pdx-estimator * {
+    box-sizing: border-box;
+}
+
+
+.bid-pdx-brand-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto 34px;
+    padding: 20px 0 0;
+}
+
+.bid-pdx-brand-link {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: inherit;
+    text-decoration: none;
+}
+
+.bid-pdx-brand-name {
+    display: block;
+    margin: 0;
+    color: #0f172a;
+    font-size: clamp(36px, 5vw, 56px);
+    font-weight: 900;
+    line-height: 0.95;
+    letter-spacing: -0.055em;
+}
+
+.bid-pdx-brand-tagline {
+    display: block;
+    margin-top: 7px;
+    color: #334155;
+    font-size: clamp(15px, 1.8vw, 18px);
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+}
+
+.bid-pdx-pros-open {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 96px;
+    padding: 14px 20px;
+    border: 2px solid #2563eb;
+    border-radius: 999px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    box-shadow: 0 12px 26px rgba(37, 99, 235, 0.18);
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.bid-pdx-pros-open:hover,
+.bid-pdx-pros-open:focus {
+    border-color: #1d4ed8;
+    background: #1d4ed8;
+    color: #ffffff;
+    transform: translateY(-1px);
+    box-shadow: 0 16px 34px rgba(37, 99, 235, 0.25);
+    outline: none;
+}
+
+.bid-pdx-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 999999;
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 90px 18px 24px;
+    background: rgba(15, 23, 42, 0.22);
+}
+
+.bid-pdx-modal.is-open {
+    display: flex;
+}
+
+.bid-pdx-modal-dialog {
+    position: relative;
+    width: min(100%, 620px);
+    max-height: calc(100vh - 120px);
+    overflow: auto;
+    padding: 28px;
+    border: 1px solid #dbeafe;
+    border-radius: 22px;
+    background: #ffffff;
+    color: #0f172a;
+    box-shadow: 0 24px 70px rgba(15, 23, 42, 0.18);
+}
+
+.bid-pdx-modal-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #dbeafe;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #0f172a;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.bid-pdx-modal-close:hover,
+.bid-pdx-modal-close:focus {
+    border-color: #2563eb;
+    background: #f8fbff;
+    outline: none;
+}
+
+.bid-pdx-modal-dialog h2 {
+    margin: 0 48px 12px 0;
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+}
+
+.bid-pdx-modal-dialog h3 {
+    margin: 20px 0 8px;
+    font-size: 17px;
+    line-height: 1.25;
+}
+
+.bid-pdx-modal-dialog p {
+    margin: 0 0 12px;
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.bid-pdx-pros-list {
+    margin: 14px 0 18px;
+    padding-left: 20px;
+    color: #0f172a;
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.bid-pdx-pros-email {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 16px;
+    border: 2px solid #2563eb;
+    border-radius: 999px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 900;
+    text-decoration: none;
+    box-shadow: 0 12px 26px rgba(37, 99, 235, 0.18);
+}
+
+.bid-pdx-pros-email:hover,
+.bid-pdx-pros-email:focus {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+    color: #ffffff;
+    outline: none;
+}
+
+.bid-pdx-app-footer {
+    width: 100%;
+    max-width: 980px;
+    margin: 56px auto 0;
+    padding: 22px 0;
+    color: #64748b;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.bid-pdx-legal-open {
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #2563eb;
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.bid-pdx-legal-open:hover,
+.bid-pdx-legal-open:focus {
+    color: #1d4ed8;
+    outline: none;
+}
+
+.bid-pdx-intro-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 520px;
+    padding: 40px 18px;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+.bid-pdx-intro-screen.is-fading {
+    opacity: 0;
+    transform: translateY(-8px);
+}
+
+.bid-pdx-estimator.is-ready .bid-pdx-intro-screen {
+    display: none;
+}
+
+.bid-pdx-intro-inner {
+    width: 100%;
+    max-width: 980px;
+}
+
+.bid-pdx-intro-title {
+    margin: 0;
+    color: #0f172a;
+    font-size: clamp(58px, 10vw, 112px);
+    font-weight: 900 !important;
+    line-height: 0.95;
+    letter-spacing: -0.06em;
+}
+
+.bid-pdx-intro-line {
+    width: min(100%, 820px);
+    height: 1px;
+    margin: 30px auto 34px;
+    background: rgba(15, 23, 42, 0.22);
+}
+
+.bid-pdx-intro-subtitle {
+    margin: 0;
+    color: #0f172a;
+    font-size: clamp(34px, 6vw, 76px);
+    font-weight: 300 !important;
+    line-height: 1.02;
+    letter-spacing: -0.045em;
+    font-synthesis-weight: none;
+}
+
+.bid-pdx-intro-subtitle span {
+    display: inline;
+}
+
+.bid-pdx-intro-location {
+    margin: 72px 0 0;
+    color: #334155;
+    font-size: clamp(18px, 2.4vw, 28px);
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.bid-pdx-main-content {
+    display: none;
+    opacity: 0;
+}
+
+.bid-pdx-estimator.is-ready .bid-pdx-main-content {
+    display: block;
+    animation: bidPdxFadeIn 0.45s ease forwards;
+}
+
+@keyframes bidPdxFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bid-pdx-project-screen {
+    text-align: center;
+}
+
+.bid-pdx-project-screen h2 {
+    margin: 0 0 10px;
+    padding-top: 60px;
+    font-size: 32px;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+}
+
+.bid-pdx-project-screen p {
+    margin: 0 auto 24px;
+    max-width: 620px;
+    color: #475569;
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+.bid-pdx-project-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.bid-pdx-project-card {
+    min-height: 145px;
+    padding: 20px;
+    border: 2px solid #93c5fd;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #0f172a;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.bid-pdx-project-card-extra {
+    display: none;
+}
+
+.bid-pdx-project-screen.is-showing-all .bid-pdx-project-card-extra {
+    display: block;
+}
+
+.bid-pdx-project-card:hover,
+.bid-pdx-project-card:focus {
+    border-color: #2563eb;
+    background: #2563eb;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 14px 35px rgba(37, 99, 235, 0.24);
+    outline: none;
+}
+
+.bid-pdx-project-card h3 {
+    margin: 0 0 8px;
+    color: #0f172a;
+    font-size: 18px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    transition: color 0.2s ease;
+}
+
+.bid-pdx-project-card p {
+    margin: 0;
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.45;
+    transition: color 0.2s ease;
+}
+
+.bid-pdx-project-card:hover h3,
+.bid-pdx-project-card:focus h3 {
+    color: #ffffff;
+}
+
+.bid-pdx-project-card:hover p,
+.bid-pdx-project-card:focus p {
+    color: #dbeafe;
+}
+
+.bid-pdx-view-all-wrap {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.bid-pdx-view-all-trades {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 190px;
+    padding: 12px 18px;
+    border: 2px solid #2563eb;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.bid-pdx-view-all-trades:hover,
+.bid-pdx-view-all-trades:focus {
+    background: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 12px 26px rgba(37, 99, 235, 0.22);
+    transform: translateY(-1px);
+    outline: none;
+}
+
+.bid-pdx-estimator-screen {
+    display: none;
+}
+
+.bid-pdx-estimator-screen.is-open {
+    display: block;
+}
+
+.bid-pdx-project-estimator {
+    display: none;
+}
+
+.bid-pdx-project-estimator.is-active {
+    display: block;
+}
+
+.bid-pdx-estimator-header {
+    max-width: 780px;
+    margin: 0 auto 22px;
+}
+
+.bid-pdx-estimator-header h2 {
+    margin: 0 0 8px;
+    padding-top: 60px;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+}
+
+.bid-pdx-estimator-header p {
+    margin: 0;
+    color: #475569;
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+.bid-pdx-progress-wrap {
+    max-width: 780px;
+    margin: 0 auto 22px;
+}
+
+.bid-pdx-progress-wrap.is-hidden {
+    display: none;
+}
+
+.bid-pdx-progress-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 9px;
+    color: #334155;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.bid-pdx-progress-bar {
+    width: 100%;
+    height: 7px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #e5e7eb;
+}
+
+.bid-pdx-progress-fill {
+    width: 0%;
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #0f172a, #2563eb);
+    transition: width 0.2s ease;
+}
+
+.bid-pdx-step-screen.is-hidden {
+    display: none;
+}
+
+.bid-pdx-options {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.bid-pdx-category-step {
+    display: none;
+}
+
+.bid-pdx-category-step.is-active {
+    display: block;
+}
+
+.bid-pdx-category {
+    margin-bottom: 16px;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 20px;
+    background: #ffffff;
+}
+
+.bid-pdx-category h3 {
+    margin: 0 0 8px;
+    font-size: 27px;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+}
+
+.bid-pdx-category-description {
+    margin: 0 0 16px;
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.bid-pdx-option-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.bid-pdx-option {
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    gap: 6px 12px;
+    min-height: 100%;
+    margin: 0;
+    padding: 15px;
+    border: 2px solid #93c5fd;
+    border-radius: 16px;
+    background: #ffffff;
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.bid-pdx-option:hover {
+    border-color: #2563eb;
+    background: #f8fbff;
+}
+
+.bid-pdx-option.is-selected {
+    border-color: #2563eb;
+    background: #f8fbff;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.10);
+}
+
+.bid-pdx-option input {
+    grid-row: 1 / 3;
+    width: 16px;
+    height: 16px;
+    margin: 2px 0 0;
+    accent-color: #2563eb;
+}
+
+.bid-pdx-option-name {
+    display: block;
+    color: #0f172a;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.bid-pdx-option-description {
+    display: block;
+    margin: 0;
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.45;
+}
+
+.bid-pdx-step-message {
+    max-width: 780px;
+    margin: 0 auto 14px;
+}
+
+.bid-pdx-step-actions {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    justify-content: space-between;
+    gap: 12px;
+    max-width: 780px;
+    margin: 14px auto 0;
+}
+
+.bid-pdx-step-button {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid #0f172a;
+    border-radius: 13px;
+    background: #ffffff;
+    color: #0f172a;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+.bid-pdx-step-button:hover,
+.bid-pdx-step-button:focus {
+    background: #f8fafc;
+    color: #0f172a;
+    outline: none;
+}
+
+.bid-pdx-step-button:disabled {
+    border-color: #dbe3ef;
+    background: #f8fafc;
+    color: #94a3b8;
+    cursor: not-allowed;
+}
+
+.bid-pdx-step-next {
+    border-color: #2563eb;
+    background: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 12px 26px rgba(37, 99, 235, 0.22);
+}
+
+.bid-pdx-step-next:hover,
+.bid-pdx-step-next:focus {
+    border-color: #1d4ed8;
+    background: #1d4ed8;
+    color: #ffffff;
+}
+
+.bid-pdx-review-screen {
+    display: none;
+}
+
+.bid-pdx-review-screen.is-visible {
+    display: block;
+}
+
+.bid-pdx-review-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 380px);
+    gap: 18px;
+    align-items: start;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.bid-pdx-project-estimator.is-reviewing .bid-pdx-estimator-header {
+    max-width: 920px;
+}
+
+.bid-pdx-review-card {
+    padding: 22px;
+    border: 1px solid #e2e8f0;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 10px 26px rgba(15, 23, 42, 0.05);
+}
+
+.bid-pdx-review-card h3 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.bid-pdx-total {
+    margin: 12px 0;
+    color: #0f172a;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.15;
+    letter-spacing: -0.04em;
+}
+
+.bid-pdx-summary-note {
+    margin: 0 0 20px;
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.bid-pdx-selected-list {
+    margin: 14px 0 0;
+    padding-left: 18px;
+    color: #0f172a;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.bid-pdx-selected-list li {
+    margin-bottom: 7px;
+}
+
+.bid-pdx-button {
+    width: 100%;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 13px;
+    background: #0f172a;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    box-shadow: 0 12px 26px rgba(15, 23, 42, 0.18);
+}
+
+.bid-pdx-button:hover {
+    background: #1e293b;
+}
+
+.bid-pdx-submit-lead {
+    background: #2563eb;
+    box-shadow: 0 12px 26px rgba(37, 99, 235, 0.22);
+}
+
+.bid-pdx-submit-lead:hover {
+    background: #1d4ed8;
+}
+
+.bid-pdx-button:disabled {
+    background: #94a3b8;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.bid-pdx-edit-selections {
+    width: auto;
+    margin-top: 22px;
+    padding: 12px 16px;
+    border: 1px solid #93c5fd;
+    border-radius: 13px;
+    background: #ffffff;
+    color: #0f172a !important;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.bid-pdx-edit-selections:hover,
+.bid-pdx-edit-selections:focus {
+    border-color: #2563eb;
+    background: #f8fbff;
+    color: #0f172a !important;
+    outline: none;
+}
+
+.bid-pdx-lead-form h3 {
+    margin: 0 0 6px;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.bid-pdx-lead-intro {
+    margin: 0 0 16px;
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.bid-pdx-field {
+    margin-bottom: 12px;
+}
+
+.bid-pdx-field label {
+    display: block;
+    margin-bottom: 6px;
+    color: #334155;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.bid-pdx-field input,
+.bid-pdx-field textarea {
+    width: 100%;
+    min-width: 0;
+    padding: 11px 12px;
+    border: 2px solid #93c5fd;
+    border-radius: 12px;
+    background: #ffffff;
+    color: #0f172a;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.bid-pdx-field input:focus,
+.bid-pdx-field textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.bid-pdx-field textarea {
+    min-height: 82px;
+    resize: vertical;
+}
+
+.bid-pdx-form-message {
+    display: none;
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.bid-pdx-form-message.is-success {
+    display: block;
+    background: #ecfdf5;
+    color: #065f46;
+    border: 1px solid #a7f3d0;
+}
+
+.bid-pdx-form-message.is-error {
+    display: block;
+    background: #fef2f2;
+    color: #991b1b;
+    border: 1px solid #fecaca;
+}
+
+.bid-pdx-empty {
+    padding: 20px;
+    border: 1px solid #fed7aa;
+    border-radius: 16px;
+    background: #fff7ed;
+    color: #7c2d12;
+}
+
+@media (max-width: 900px) {
+    .bid-pdx-project-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .bid-pdx-review-layout {
+        grid-template-columns: 1fr;
+        max-width: 780px;
+    }
+}
+
+@media (max-width: 600px) {
+    .bid-pdx-estimator {
+        width: 100%;
+        max-width: none;
+        padding: 0;
+    }
+
+
+    .bid-pdx-brand-header {
+        margin-bottom: 28px;
+        padding: 16px 0 0;
+    }
+
+    .bid-pdx-brand-name {
+        font-size: clamp(38px, 12vw, 54px);
+    }
+
+    .bid-pdx-brand-tagline {
+        font-size: 14px;
+    }
+
+    .bid-pdx-pros-open {
+        min-width: 82px;
+        padding: 12px 14px;
+        font-size: 13px;
+    }
+
+    .bid-pdx-modal {
+        align-items: flex-end;
+        padding: 18px 12px;
+    }
+
+    .bid-pdx-modal-dialog {
+        max-height: calc(100vh - 36px);
+        padding: 24px 18px;
+        border-radius: 20px;
+    }
+
+    .bid-pdx-modal-dialog h2 {
+        font-size: 23px;
+    }
+
+    .bid-pdx-app-footer {
+        margin-top: 42px;
+        padding: 20px 0;
+    }
+
+
+.bid-pdx-brand-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto 34px;
+    padding: 20px 0 0;
+}
+
+.bid-pdx-brand-link {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: inherit;
+    text-decoration: none;
+}
+
+.bid-pdx-brand-name {
+    display: block;
+    margin: 0;
+    color: #0f172a;
+    font-size: clamp(36px, 5vw, 56px);
+    font-weight: 900;
+    line-height: 0.95;
+    letter-spacing: -0.055em;
+}
+
+.bid-pdx-brand-tagline {
+    display: block;
+    margin-top: 7px;
+    color: #334155;
+    font-size: clamp(15px, 1.8vw, 18px);
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+}
+
+.bid-pdx-pros-open {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 96px;
+    padding: 14px 20px;
+    border: 2px solid #2563eb;
+    border-radius: 999px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    box-shadow: 0 12px 26px rgba(37, 99, 235, 0.18);
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.bid-pdx-pros-open:hover,
+.bid-pdx-pros-open:focus {
+    border-color: #1d4ed8;
+    background: #1d4ed8;
+    color: #ffffff;
+    transform: translateY(-1px);
+    box-shadow: 0 16px 34px rgba(37, 99, 235, 0.25);
+    outline: none;
+}
+
+.bid-pdx-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 999999;
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 90px 18px 24px;
+    background: rgba(15, 23, 42, 0.22);
+}
+
+.bid-pdx-modal.is-open {
+    display: flex;
+}
+
+.bid-pdx-modal-dialog {
+    position: relative;
+    width: min(100%, 620px);
+    max-height: calc(100vh - 120px);
+    overflow: auto;
+    padding: 28px;
+    border: 1px solid #dbeafe;
+    border-radius: 22px;
+    background: #ffffff;
+    color: #0f172a;
+    box-shadow: 0 24px 70px rgba(15, 23, 42, 0.18);
+}
+
+.bid-pdx-modal-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #dbeafe;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #0f172a;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.bid-pdx-modal-close:hover,
+.bid-pdx-modal-close:focus {
+    border-color: #2563eb;
+    background: #f8fbff;
+    outline: none;
+}
+
+.bid-pdx-modal-dialog h2 {
+    margin: 0 48px 12px 0;
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+}
+
+.bid-pdx-modal-dialog h3 {
+    margin: 20px 0 8px;
+    font-size: 17px;
+    line-height: 1.25;
+}
+
+.bid-pdx-modal-dialog p {
+    margin: 0 0 12px;
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.bid-pdx-pros-list {
+    margin: 14px 0 18px;
+    padding-left: 20px;
+    color: #0f172a;
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.bid-pdx-pros-email {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 16px;
+    border: 2px solid #2563eb;
+    border-radius: 999px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 900;
+    text-decoration: none;
+    box-shadow: 0 12px 26px rgba(37, 99, 235, 0.18);
+}
+
+.bid-pdx-pros-email:hover,
+.bid-pdx-pros-email:focus {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+    color: #ffffff;
+    outline: none;
+}
+
+.bid-pdx-app-footer {
+    width: 100%;
+    max-width: 980px;
+    margin: 56px auto 0;
+    padding: 22px 0;
+    color: #64748b;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.bid-pdx-legal-open {
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #2563eb;
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.bid-pdx-legal-open:hover,
+.bid-pdx-legal-open:focus {
+    color: #1d4ed8;
+    outline: none;
+}
+
+.bid-pdx-intro-screen {
+        min-height: 76vh;
+        padding: 28px 0;
+    }
+
+    .bid-pdx-intro-title {
+        font-size: clamp(74px, 21vw, 102px);
+        font-weight: 900 !important;
+    }
+
+    .bid-pdx-intro-line {
+        margin: 24px auto 28px;
+    }
+
+    .bid-pdx-intro-subtitle {
+        font-size: clamp(74px, 21vw, 102px);
+        font-weight: 300 !important;
+        line-height: 0.84;
+        letter-spacing: -0.035em;
+    }
+
+    .bid-pdx-intro-subtitle span {
+        display: block;
+    }
+
+    .bid-pdx-intro-location {
+        margin-top: 34px;
+        font-size: 20px;
+    }
+
+    .bid-pdx-project-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .bid-pdx-project-card {
+        min-height: auto;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .bid-pdx-view-all-wrap {
+        margin-top: 14px;
+    }
+
+    .bid-pdx-view-all-trades {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .bid-pdx-project-estimator,
+    .bid-pdx-review-screen {
+        scroll-margin-top: 90px;
+    }
+
+    .bid-pdx-estimator-header {
+        margin-bottom: 16px;
+    }
+
+    .bid-pdx-estimator-header h2,
+    .bid-pdx-project-screen h2 {
+        font-size: 25px;
+    }
+
+    .bid-pdx-estimator-header p,
+    .bid-pdx-project-screen p {
+        font-size: 14px;
+    }
+
+    .bid-pdx-progress-wrap {
+        margin-bottom: 16px;
+    }
+
+    .bid-pdx-progress-top {
+        font-size: 13px;
+    }
+
+    .bid-pdx-category {
+        padding: 14px;
+        border-radius: 16px;
+    }
+
+    .bid-pdx-category h3 {
+        font-size: 23px;
+    }
+
+    .bid-pdx-category-description {
+        font-size: 14px;
+    }
+
+    .bid-pdx-option-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .bid-pdx-option {
+        grid-template-columns: 20px 1fr;
+        gap: 5px 10px;
+        padding: 12px;
+        border-radius: 14px;
+    }
+
+    .bid-pdx-option-name {
+        font-size: 15px;
+    }
+
+    .bid-pdx-option-description {
+        font-size: 13px;
+    }
+
+    .bid-pdx-step-actions {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .bid-pdx-step-button {
+        min-width: 0;
+        padding: 13px 10px;
+        border-radius: 12px;
+        font-size: 13px;
+    }
+
+    .bid-pdx-review-layout {
+        gap: 12px;
+    }
+
+    .bid-pdx-review-card {
+        padding: 15px;
+        border-radius: 16px;
+    }
+
+    .bid-pdx-review-card h3,
+    .bid-pdx-lead-form h3 {
+        font-size: 20px;
+    }
+
+    .bid-pdx-total {
+        font-size: 28px;
+    }
+
+    .bid-pdx-edit-selections {
+        width: 100%;
+    }
+}
+
+.estimator-install-button {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 14px 16px;
+    border: 0;
+    border-radius: 0;
+    background: #2563eb;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: 0 -4px 14px rgba(15, 23, 42, 0.22);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.estimator-install-button:hover,
+.estimator-install-button:focus {
+    background: #1d4ed8;
+    color: #ffffff;
+    outline: none;
+}
+
+@media (min-width: 769px) {
+    .estimator-install-button {
+        display: none !important;
+    }
+}
+
+/* Final Estimator Framework app layout */
+:root {
+    --bid-pdx-header-height: 120px;
+    --bid-pdx-bottom-safe: 0px;
+}
+
+.bid-pdx-estimator,
+.bid-pdx-estimator button,
+.bid-pdx-estimator input,
+.bid-pdx-estimator textarea,
+.bid-pdx-estimator select {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+
+.bid-pdx-estimator {
+    width: 100%;
+    min-height: 100svh;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.bid-pdx-estimator.is-ready .bid-pdx-main-content {
+    display: flex !important;
+    flex-direction: column;
+    min-height: 100svh;
+    padding-top: var(--bid-pdx-header-height) !important;
+    opacity: 1;
+    animation: bidPdxFadeIn 0.45s ease forwards;
+}
+
+.bid-pdx-brand-header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 50% !important;
+    z-index: 9999;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 18px;
+    width: min(980px, calc(100vw - 32px)) !important;
+    max-width: 980px !important;
+    min-height: var(--bid-pdx-header-height) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff;
+    transform: translateX(-50%) !important;
+}
+
+body.admin-bar .bid-pdx-brand-header {
+    top: 32px !important;
+}
+
+.bid-pdx-brand-link,
+.bid-pdx-brand-link:hover,
+.bid-pdx-brand-link:focus,
+.bid-pdx-brand-link:visited {
+    justify-content: center;
+    color: inherit;
+    text-decoration: none !important;
+    outline: none;
+}
+
+.bid-pdx-brand-name {
+    font-size: clamp(36px, 4.3vw, 52px);
+}
+
+.bid-pdx-brand-tagline {
+    display: none !important;
+}
+
+.bid-pdx-project-screen {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100svh - var(--bid-pdx-header-height) - var(--bid-pdx-bottom-safe));
+    padding: 90px 0 calc(28px + var(--bid-pdx-bottom-safe)) !important;
+    text-align: center;
+}
+
+.bid-pdx-estimator-screen.is-open {
+    flex: 1;
+    padding: 90px 0 calc(28px + var(--bid-pdx-bottom-safe)) !important;
+}
+
+.bid-pdx-project-screen h2,
+.bid-pdx-estimator-header h2 {
+    padding-top: 0 !important;
+}
+
+.bid-pdx-project-estimator,
+.bid-pdx-review-screen {
+    scroll-margin-top: calc(var(--bid-pdx-header-height) + 16px);
+}
+
+.bid-pdx-review-screen {
+    padding-top: 0 !important;
+    padding-bottom: calc(28px + var(--bid-pdx-bottom-safe)) !important;
+}
+
+.bid-pdx-app-footer {
+    margin-top: auto !important;
+    padding: 18px 0 22px;
+}
+
+.bid-pdx-footer-link {
+    display: inline;
+    padding: 0;
+    border: none;
+    background: transparent !important;
+    color: #2563eb;
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.bid-pdx-footer-link:hover,
+.bid-pdx-footer-link:focus {
+    background: transparent !important;
+    color: #1d4ed8;
+    outline: none;
+}
+
+.bid-pdx-modal-close,
+.bid-pdx-modal-close:hover,
+.bid-pdx-modal-close:focus {
+    background: #ffffff !important;
+    color: #0f172a !important;
+}
+
+.bid-pdx-pro-form {
+    margin-top: 18px;
+}
+
+.bid-pdx-pro-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.bid-pdx-pro-form .bid-pdx-field-full {
+    grid-column: 1 / -1;
+}
+
+.bid-pdx-about-points {
+    margin: 14px 0 0;
+    padding-left: 20px;
+    color: #0f172a;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.bid-pdx-success-state {
+    padding: 18px;
+    border: 1px solid #bfdbfe;
+    border-radius: 16px;
+    background: #eff6ff;
+    color: #0f172a;
+    text-align: left;
+}
+
+.bid-pdx-success-state h3 {
+    margin: 0 0 8px;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.bid-pdx-success-state p {
+    margin: 0;
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.bid-pdx-honeypot {
+    position: absolute !important;
+    left: -9999px !important;
+    top: auto !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+@media (max-width: 768px) {
+    :root {
+        --bid-pdx-bottom-safe: 64px;
+    }
+
+    .bid-pdx-brand-header {
+        width: calc(100vw - 24px) !important;
+    }
+
+    .bid-pdx-pros-open {
+        min-width: 76px;
+        padding: 10px 13px;
+        font-size: 12px;
+    }
+
+    .bid-pdx-modal-dialog {
+        padding-bottom: calc(24px + var(--bid-pdx-bottom-safe));
+    }
+}
+
+@media (max-width: 600px) {
+    body.admin-bar .bid-pdx-brand-header {
+        top: 46px !important;
+    }
+
+    .bid-pdx-brand-name {
+        font-size: clamp(34px, 11vw, 46px);
+    }
+
+    .bid-pdx-intro-subtitle {
+        font-size: 40px;
+        font-weight: 300 !important;
+        line-height: 1.2;
+        letter-spacing: normal;
+    }
+
+    .bid-pdx-intro-subtitle span {
+        display: block;
+        width: 100%;
+        text-align: center;
+        letter-spacing: normal;
+    }
+
+    .bid-pdx-pro-form-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* True fixed app header override */
+.bid-pdx-estimator > .bid-pdx-brand-header {
+    display: none !important;
+}
+
+.bid-pdx-estimator.is-ready > .bid-pdx-brand-header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 50% !important;
+    z-index: 99999 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 18px;
+    width: min(980px, calc(100vw - 32px)) !important;
+    height: 120px !important;
+    min-height: 120px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+    transform: translateX(-50%) !important;
+    overflow: visible !important;
+}
+
+body.admin-bar .bid-pdx-estimator.is-ready > .bid-pdx-brand-header {
+    top: 32px !important;
+}
+
+.bid-pdx-estimator.is-ready .bid-pdx-main-content {
+    display: flex !important;
+    flex-direction: column;
+    min-height: 100svh;
+    padding-top: 120px !important;
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+}
+
+.bid-pdx-project-screen {
+    flex: 1;
+    justify-content: center;
+    min-height: calc(100svh - 120px - var(--bid-pdx-bottom-safe, 0px));
+    padding-top: 90px !important;
+    padding-bottom: calc(28px + var(--bid-pdx-bottom-safe, 0px)) !important;
+}
+
+.bid-pdx-estimator-screen.is-open {
+    flex: 1;
+    padding-top: 90px !important;
+    padding-bottom: calc(28px + var(--bid-pdx-bottom-safe, 0px)) !important;
+}
+
+@media (max-width: 768px) {
+    .bid-pdx-estimator.is-ready > .bid-pdx-brand-header {
+        width: calc(100vw - 24px) !important;
+    }
+}
+
+@media (max-width: 600px) {
+    body.admin-bar .bid-pdx-estimator.is-ready > .bid-pdx-brand-header {
+        top: 46px !important;
+    }
+}
+
+/* 2.1.3 final layout corrections */
+:root {
+    --bid-pdx-header-height: 90px;
+}
+
+.bid-pdx-estimator.is-ready > .bid-pdx-brand-header {
+    height: 90px !important;
+    min-height: 90px !important;
+    max-height: 90px !important;
+}
+
+.bid-pdx-estimator.is-ready .bid-pdx-main-content {
+    padding-top: 90px !important;
+}
+
+.bid-pdx-project-screen {
+    min-height: calc(100svh - 90px - var(--bid-pdx-bottom-safe, 0px)) !important;
+    padding-top: 0 !important;
+    padding-bottom: calc(28px + var(--bid-pdx-bottom-safe, 0px)) !important;
+    justify-content: center !important;
+}
+
+.bid-pdx-estimator-screen.is-open {
+    padding-top: 24px !important;
+    padding-bottom: calc(28px + var(--bid-pdx-bottom-safe, 0px)) !important;
+}
+
+.bid-pdx-intro-subtitle {
+    font-size: clamp(68px, 9vw, 118px);
+    line-height: 1;
+}
+
+@media (max-width: 600px) {
+    .bid-pdx-intro-subtitle {
+        font-size: clamp(72px, 19vw, 88px);
+        line-height: 1;
+        letter-spacing: normal;
+    }
+}
+
+/* 2.1.4 project screen spacing and intro corrections */
+.bid-pdx-estimator.is-ready .bid-pdx-main-content {
+    min-height: 100svh;
+    padding-top: 90px !important;
+}
+
+.bid-pdx-project-screen {
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 18px !important;
+    justify-content: center !important;
+}
+
+.bid-pdx-app-footer {
+    flex: 0 0 auto;
+    margin-top: 0 !important;
+    padding: 14px 0 18px !important;
+}
+
+.bid-pdx-intro-subtitle {
+    font-size: clamp(42px, 4.6vw, 76px) !important;
+    line-height: 1.05;
+}
+
+@media (max-width: 600px) {
+    .bid-pdx-intro-subtitle {
+        font-size: clamp(72px, 19vw, 88px) !important;
+        line-height: 1;
+    }
+}
+
+/* 2.1.5 mobile spacing and intro refinements */
+@media (max-width: 600px) {
+    .bid-pdx-intro-screen {
+        min-height: calc(100svh - var(--bid-pdx-bottom-safe, 64px)) !important;
+        padding: 18px 0 calc(82px + env(safe-area-inset-bottom, 0px)) !important;
+    }
+
+    .bid-pdx-intro-title {
+        font-size: clamp(100px, 26vw, 132px) !important;
+        line-height: 0.9 !important;
+        letter-spacing: 0.015em !important;
+    }
+
+    .bid-pdx-intro-line {
+        margin: 22px auto 24px !important;
+    }
+
+    .bid-pdx-intro-subtitle {
+        font-size: clamp(70px, 18vw, 88px) !important;
+        line-height: 0.96 !important;
+        letter-spacing: normal !important;
+    }
+
+    .bid-pdx-intro-location {
+        margin-top: 28px !important;
+        font-size: 24px !important;
+        line-height: 1.2 !important;
+    }
+
+    .bid-pdx-project-screen {
+        min-height: calc(100svh - 90px - var(--bid-pdx-bottom-safe, 64px)) !important;
+        padding-top: 14px !important;
+        padding-bottom: calc(82px + env(safe-area-inset-bottom, 0px)) !important;
+        justify-content: flex-start !important;
+    }
+
+    .bid-pdx-project-screen h2 {
+        margin-bottom: 8px !important;
+        font-size: 31px !important;
+        line-height: 1.08 !important;
+    }
+
+    .bid-pdx-project-screen p {
+        margin-bottom: 16px !important;
+        font-size: 17px !important;
+        line-height: 1.35 !important;
+    }
+
+    .bid-pdx-project-grid {
+        gap: 8px !important;
+    }
+
+    .bid-pdx-project-card {
+        min-height: 100px !important;
+        padding: 14px 20px !important;
+    }
+
+    .bid-pdx-view-all-wrap {
+        margin-top: 10px !important;
+    }
+
+    .estimator-install-button {
+        min-height: 64px !important;
+        padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px)) !important;
+    }
+}
+
+/* 2.1.6 mobile fit and install button cleanup */
+@media (max-width: 600px) {
+    .bid-pdx-intro-location {
+        font-size: clamp(18px, 4.8vw, 20px) !important;
+        line-height: 1.2 !important;
+        letter-spacing: -0.03em !important;
+        white-space: nowrap !important;
+    }
+
+    .bid-pdx-project-screen {
+        padding-top: 0 !important;
+        padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px)) !important;
+        justify-content: flex-start !important;
+    }
+
+    .bid-pdx-project-screen h2 {
+        margin-bottom: 6px !important;
+        font-size: 29px !important;
+        line-height: 1.05 !important;
+    }
+
+    .bid-pdx-project-screen p {
+        margin-bottom: 12px !important;
+        font-size: 16px !important;
+        line-height: 1.25 !important;
+    }
+
+    .bid-pdx-project-grid {
+        gap: 7px !important;
+    }
+
+    .bid-pdx-project-card {
+        min-height: 86px !important;
+        padding: 11px 18px !important;
+        border-radius: 15px !important;
+    }
+
+    .bid-pdx-project-card h3 {
+        margin-bottom: 4px !important;
+        font-size: 22px !important;
+        line-height: 1.12 !important;
+    }
+
+    .bid-pdx-project-card p {
+        font-size: 16px !important;
+        line-height: 1.2 !important;
+    }
+
+    .bid-pdx-view-all-wrap {
+        margin-top: 8px !important;
+    }
+
+    .bid-pdx-view-all-trades {
+        padding: 10px 14px !important;
+        min-height: 50px !important;
+    }
+
+    .estimator-install-button {
+        min-height: 62px !important;
+        padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px)) !important;
+        font-size: 18px !important;
+    }
+}
+ /* 2.1.10 project title top offset on all screens */
+.bid-pdx-project-screen {
+    padding-top: 30px !important;
+}
+
+ /* 2.1.12 contractor title styling */
+.bid-pdx-find-contractors-title {
+    margin: 0 0 10px !important;
+    font-size: clamp(44px, 4.8vw, 56px) !important;
+    line-height: 1.02 !important;
+    font-weight: 800 !important;
+    color: #2563eb !important;
+}
+
+/* 2.1.14 natural estimator height */
+.bid-pdx-estimator {
+    min-height: auto !important;
+}
+
+.bid-pdx-estimator.is-ready .bid-pdx-main-content {
+    min-height: auto !important;
+    padding-top: 90px !important;
+}
+
+.bid-pdx-project-screen {
+    flex: 0 0 auto !important;
+    min-height: auto !important;
+    padding-top: 30px !important;
+    padding-bottom: 24px !important;
+    justify-content: flex-start !important;
+}
+
+.bid-pdx-estimator-screen.is-open {
+    flex: 0 0 auto !important;
+    min-height: auto !important;
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+}
+
+.bid-pdx-review-screen {
+    min-height: auto !important;
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+}
+
+.bid-pdx-app-footer {
+    margin-top: 24px !important;
+}
+
+@media (max-width: 600px) {
+    .bid-pdx-estimator.is-ready .bid-pdx-main-content {
+        padding-top: 90px !important;
+    }
+
+    .bid-pdx-project-screen {
+        min-height: auto !important;
+        padding-top: 18px !important;
+        padding-bottom: 22px !important;
+    }
+
+    .bid-pdx-estimator-screen.is-open,
+    .bid-pdx-review-screen {
+        min-height: auto !important;
+        padding-top: 20px !important;
+        padding-bottom: 22px !important;
+    }
+}
+
+/* 2.1.17 compact header and tighter top spacing */
+:root {
+    --bid-pdx-header-height: 75px;
+}
+
+.bid-pdx-estimator.is-ready > .bid-pdx-brand-header {
+    height: 75px !important;
+    min-height: 75px !important;
+    max-height: 75px !important;
+}
+
+.bid-pdx-estimator.is-ready .bid-pdx-main-content {
+    padding-top: 75px !important;
+}
+
+.bid-pdx-project-screen {
+    padding-top: 18px !important;
+    padding-bottom: 22px !important;
+}
+
+.bid-pdx-estimator-screen.is-open,
+.bid-pdx-review-screen {
+    padding-top: 18px !important;
+    padding-bottom: 22px !important;
+}
+
+.bid-pdx-project-estimator,
+.bid-pdx-review-screen {
+    scroll-margin-top: 87px !important;
+}
+
+@media (max-width: 600px) {
+    .bid-pdx-estimator.is-ready .bid-pdx-main-content {
+        padding-top: 75px !important;
+    }
+
+    .bid-pdx-project-screen {
+        padding-top: 12px !important;
+        padding-bottom: 18px !important;
+    }
+
+    .bid-pdx-estimator-screen.is-open,
+    .bid-pdx-review-screen {
+        padding-top: 12px !important;
+        padding-bottom: 18px !important;
+    }
+
+    .bid-pdx-project-estimator,
+    .bid-pdx-review-screen {
+        scroll-margin-top: 87px !important;
+    }
+}
+
+/* 2.1.18 fit-content intro and cleaner screen spacing */
+.bid-pdx-intro-screen {
+    min-height: auto !important;
+    padding: 28px 18px 32px !important;
+}
+
+.bid-pdx-intro-line {
+    margin: 20px auto 22px !important;
+}
+
+.bid-pdx-intro-location {
+    margin-top: 28px !important;
+}
+
+.bid-pdx-estimator-screen.is-open,
+.bid-pdx-review-screen {
+    padding-top: 14px !important;
+    padding-bottom: 18px !important;
+}
+
+.bid-pdx-estimator-header {
+    margin-bottom: 14px !important;
+}
+
+.bid-pdx-review-layout {
+    gap: 14px !important;
+}
+
+.bid-pdx-review-card {
+    padding: 18px !important;
+}
+
+.bid-pdx-field {
+    margin-bottom: 10px !important;
+}
+
+.bid-pdx-field input,
+.bid-pdx-field textarea {
+    padding: 10px 11px !important;
+}
+
+.bid-pdx-field textarea {
+    min-height: 68px !important;
+}
+
+@media (max-width: 600px) {
+    .bid-pdx-intro-screen {
+        min-height: auto !important;
+        padding: 18px 12px 22px !important;
+    }
+
+    .bid-pdx-intro-line {
+        margin: 16px auto 18px !important;
+    }
+
+    .bid-pdx-intro-location {
+        margin-top: 20px !important;
+    }
+
+    .bid-pdx-estimator-screen.is-open,
+    .bid-pdx-review-screen {
+        padding-top: 10px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .bid-pdx-review-card {
+        padding: 14px !important;
+    }
+
+    .bid-pdx-field {
+        margin-bottom: 8px !important;
+    }
+
+    .bid-pdx-field textarea {
+        min-height: 60px !important;
+    }
+}
+
+/* 2.1.19 remove outer option container card */
+.bid-pdx-category {
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+}
+
+.bid-pdx-category h3 {
+    margin-bottom: 12px !important;
+}
+
+.bid-pdx-option {
+    min-height: 96px !important;
+    padding: 18px 20px !important;
+}
+
+.bid-pdx-option-grid {
+    gap: 14px !important;
+}
+
+@media (max-width: 600px) {
+    .bid-pdx-option {
+        min-height: 86px !important;
+        padding: 15px 18px !important;
+    }
+
+    .bid-pdx-option-grid {
+        gap: 10px !important;
+    }
+}
+
+/* 2.1.20 compact option cards and centered intro */
+.bid-pdx-intro-inner,
+.bid-pdx-intro-title,
+.bid-pdx-intro-subtitle,
+.bid-pdx-intro-location {
+    text-align: center !important;
+}
+
+.bid-pdx-intro-inner {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.bid-pdx-option-grid {
+    gap: 10px !important;
+}
+
+.bid-pdx-option {
+    min-height: 78px !important;
+    padding: 12px 16px !important;
+    gap: 4px 10px !important;
+}
+
+.bid-pdx-option input {
+    margin-top: 1px !important;
+}
+
+.bid-pdx-option-name {
+    font-size: 15px !important;
+    line-height: 1.18 !important;
+}
+
+.bid-pdx-option-description {
+    font-size: 13px !important;
+    line-height: 1.25 !important;
+}
+
+@media (max-width: 600px) {
+    .bid-pdx-option-grid {
+        gap: 8px !important;
+    }
+
+    .bid-pdx-option {
+        min-height: 70px !important;
+        padding: 10px 14px !important;
+        gap: 3px 9px !important;
+    }
+
+    .bid-pdx-option-name {
+        font-size: 15px !important;
+        line-height: 1.15 !important;
+    }
+
+    .bid-pdx-option-description {
+        font-size: 13px !important;
+        line-height: 1.2 !important;
+    }
+}
+
+/* 2.1.21 intro offset, footer spacing, and clean review summary */
+.bid-pdx-intro-screen {
+    padding-top: 120px !important;
+}
+
+.bid-pdx-app-footer {
+    padding-bottom: 15px !important;
+}
+
+.bid-pdx-review-layout .bid-pdx-review-card:first-child {
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+@media (max-width: 600px) {
+    .bid-pdx-intro-screen {
+        padding-top: 70px !important;
+    }
+
+    .bid-pdx-app-footer {
+        padding-bottom: 15px !important;
+    }
+
+    .bid-pdx-review-layout .bid-pdx-review-card:first-child {
+        padding: 0 !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+}
+
+/* 2.1.22 tighter footer and safer mobile side spacing */
+.bid-pdx-app-footer {
+    margin-top: 12px !important;
+    padding-top: 8px !important;
+    padding-bottom: 12px !important;
+}
+
+@media (max-width: 600px) {
+    .bid-pdx-estimator.is-ready > .bid-pdx-brand-header,
+    .bid-pdx-project-screen,
+    .bid-pdx-project-estimator,
+    .bid-pdx-review-screen,
+    .bid-pdx-app-footer {
+        width: calc(100vw - 40px) !important;
+    }
+
+    .bid-pdx-options,
+    .bid-pdx-step-message,
+    .bid-pdx-step-actions {
+        max-width: 100% !important;
+    }
+}
+
+/* 2.1.23 mobile intro, service cards, and equal side spacing */
+@media (max-width: 600px) {
+    .bid-pdx-intro-subtitle {
+        font-size: clamp(76px, 20vw, 96px) !important;
+        line-height: 0.96 !important;
+    }
+
+    .bid-pdx-estimator.is-ready > .bid-pdx-brand-header,
+    .bid-pdx-project-screen,
+    .bid-pdx-project-estimator,
+    .bid-pdx-review-screen,
+    .bid-pdx-app-footer {
+        width: calc(100vw - 40px) !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        box-sizing: border-box !important;
+    }
+
+    .bid-pdx-project-grid {
+        gap: 7px !important;
+    }
+
+    .bid-pdx-project-card {
+        min-height: 78px !important;
+        padding: 9px 16px !important;
+    }
+
+    .bid-pdx-project-card h3 {
+        font-size: 23px !important;
+        line-height: 1.1 !important;
+    }
+
+    .bid-pdx-project-card p {
+        font-size: 17px !important;
+        line-height: 1.18 !important;
+    }
+
+    .bid-pdx-option-name {
+        font-size: 16px !important;
+        line-height: 1.15 !important;
+    }
+
+    .bid-pdx-option-description {
+        font-size: 14px !important;
+        line-height: 1.2 !important;
+    }
+}
+
+/* 2.1.24 mobile fine tuning */
+@media (max-width: 600px) {
+    .bid-pdx-intro-subtitle {
+        font-size: clamp(86px, calc(20vw + 10px), 106px) !important;
+    }
+
+    .bid-pdx-project-card {
+        padding: 9px 16px 5px !important;
+    }
+
+    .bid-pdx-option-name {
+        font-size: 18px !important;
+        line-height: 1.12 !important;
+    }
+
+    .bid-pdx-option-description {
+        font-size: 15px !important;
+        line-height: 1.18 !important;
+    }
+}
+
+/* 2.1.26 category helper text */
+.bid-pdx-category-helper {
+    margin: -4px 0 12px !important;
+    color: #64748b !important;
+    font-size: 14px !important;
+    line-height: 1.25 !important;
+    font-weight: 600 !important;
+}
+
+@media (max-width: 600px) {
+    .bid-pdx-category-helper {
+        margin: -2px 0 10px !important;
+        font-size: 14px !important;
+        line-height: 1.2 !important;
+    }
+}
+
+/* 2.1.26 mobile intro sizing, divider spacing, and centered modal close */
+.bid-pdx-modal-close {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+    text-align: center !important;
+}
+
+@media (max-width: 600px) {
+    .bid-pdx-intro-subtitle {
+        font-size: clamp(78px, 18vw, 94px) !important;
+        line-height: 0.96 !important;
+    }
+
+    .bid-pdx-intro-line {
+        margin: 24px auto 34px !important;
+    }
+}
+
+/* Project card title emphasis */
+.bid-pdx-project-card h3,
+.bid-pdx-project-card-title,
+.bid-pdx-project-title {
+    font-weight: 800 !important;
+}
+
+/* 2.1.39 darker contact form border */
+.bid-pdx-review-layout .bid-pdx-review-card:last-child {
+    border: 2px solid #64748b !important;
+    box-shadow: 0 14px 32px rgba(37, 99, 235, 0.14) !important;
+}
+
+/* 2.1.65 site-specific intro background images */
+.bid-pdx-intro-screen {
+    position: relative;
+    overflow: hidden;
+    background-color: #0f172a;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bid-pdx-intro-screen::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.42);
+}
+
+.bid-pdx-intro-inner {
+    position: relative;
+    z-index: 1;
+}
+
+.bid-pdx-intro-title,
+.bid-pdx-intro-subtitle,
+.bid-pdx-intro-location {
+    color: #ffffff !important;
+}
+
+.bid-pdx-intro-line {
+    background: rgba(255, 255, 255, 0.45) !important;
+}
+
+/* tighter spacing for mobile estimator title */
+@media (max-width: 600px) {
+    .bid-pdx-intro-title {
+        letter-spacing: -0.01em !important;
+    }
+}
+
+/* 2.1.45 full-screen intro background */
+.bid-pdx-intro-screen {
+    width: 100vw;
+    max-width: none;
+    min-height: 100svh !important;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding: 120px 18px 72px !important;
+    box-sizing: border-box !important;
+}
+/* 2.1.46 fixed full-screen intro */
+.bid-pdx-intro-screen {
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100vw !important;
+    height: 100dvh !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: max(48px, env(safe-area-inset-top)) 18px max(48px, env(safe-area-inset-bottom)) !important;
+    z-index: 999999 !important;
+    overscroll-behavior: contain;
+}
+
+body.admin-bar .bid-pdx-intro-screen {
+    top: 32px !important;
+    height: calc(100dvh - 32px) !important;
+}
+
+@media screen and (max-width: 782px) {
+    body.admin-bar .bid-pdx-intro-screen {
+        top: 46px !important;
+        height: calc(100dvh - 46px) !important;
+    }
+}
+/* Conditional estimator routing visibility */
+.bid-pdx-category-step[hidden],
+.bid-pdx-option[hidden] {
+    display: none !important;
+}
+
+/* 2.1.60 responsive project card layout */
+.bid-pdx-project-card,
+.bid-pdx-project-card h3,
+.bid-pdx-project-card p {
+    white-space: normal !important;
+}
+
+.bid-pdx-project-card h3,
+.bid-pdx-project-card p {
+    overflow-wrap: anywhere;
+    word-break: normal;
+}
+
+@media (min-width: 601px) and (max-width: 1180px) {
+    .bid-pdx-project-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+}
+
+/* Smaller mobile intro title */
+@media (max-width: 600px) {
+    .bid-pdx-intro-title {
+        font-size: clamp(64px, 18vw, 84px) !important;
+        line-height: 0.95 !important;
+    }
+}
+/* Contractor modal laptop viewport fit */
+.bid-pdx-pros-modal {
+    padding: 18px 18px 20px;
+}
+
+.bid-pdx-pros-modal .bid-pdx-modal-dialog {
+    max-height: calc(100vh - 38px);
+    max-height: calc(100dvh - 38px);
+}
+
+@media (max-width: 600px) {
+    .bid-pdx-pros-modal {
+        padding: 12px;
+    }
+
+    .bid-pdx-pros-modal .bid-pdx-modal-dialog {
+        max-height: calc(100vh - 24px);
+        max-height: calc(100dvh - 24px);
+    }
+}
+/* Rebidco mobile intro title size */
+@media (max-width: 600px) {
+    .bid-pdx-estimator.bid-pdx-site-rebidco .bid-pdx-intro-title {
+        font-size: clamp(96px, 25vw, 128px) !important;
+        line-height: 0.9 !important;
+    }
+}

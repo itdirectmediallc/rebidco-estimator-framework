@@ -1,0 +1,428 @@
+project_name,project_slug,category_sort,category_name,selection_type,option_sort,option_name,option_description,price_min,price_max,active,category_condition_category_slug,category_condition_option_slugs,category_condition_match,option_condition_category_slug,option_condition_option_slugs,option_condition_match
+Attic Conversions,attic-conversions,1,Attic Size,single,1,Small attic,Compact room,10000,18000,1,,,,,,
+Attic Conversions,attic-conversions,1,Attic Size,single,2,Medium attic,Bedroom size,18000,32000,1,,,,,,
+Attic Conversions,attic-conversions,1,Attic Size,single,3,Large attic,Larger space,30000,55000,1,,,,,,
+Attic Conversions,attic-conversions,2,Existing Condition,single,1,Good headroom,Ready space,0,500,1,,,,,,
+Attic Conversions,attic-conversions,2,Existing Condition,single,2,Limited headroom,Some changes,2500,6000,1,,,,,,
+Attic Conversions,attic-conversions,2,Existing Condition,single,3,Low clearance,More framing,8000,18000,1,,,,,,
+Attic Conversions,attic-conversions,3,Use Type,single,1,Office or bonus room,Simple finish,0,5000,1,,,,,,
+Attic Conversions,attic-conversions,3,Use Type,single,2,Bedroom conversion,Closet ready,6000,12000,1,,,,,,
+Attic Conversions,attic-conversions,3,Use Type,single,3,Suite preparation,Larger layout,12000,25500,1,,,,,,
+Attic Conversions,attic-conversions,4,Sleeping Room Egress,single,1,Existing Code-Compliant Egress,Existing safe exit,0,0,1,use-type,bedroom-conversion|suite-preparation,any,,,
+Attic Conversions,attic-conversions,4,Sleeping Room Egress,single,2,Add Egress Window,New code-compliant opening,2600,5500,1,use-type,bedroom-conversion|suite-preparation,any,,,
+Attic Conversions,attic-conversions,5,Access,single,1,Use existing stairs,Keep access,0,800,1,,,,,,
+Attic Conversions,attic-conversions,5,Access,single,2,Improve stairs,Safer access,2500,6000,1,,,,,,
+Attic Conversions,attic-conversions,5,Access,single,3,New stairs,Code stairs,6000,14000,1,,,,,,
+Attic Conversions,attic-conversions,6,Comfort Systems,single,1,Use Existing Heating and Cooling,No new comfort system,0,0,1,,,,,,
+Attic Conversions,attic-conversions,6,Comfort Systems,single,2,Basic comfort,Light updates,1500,3000,1,,,,,,
+Attic Conversions,attic-conversions,6,Comfort Systems,single,3,Mini split,Dedicated unit,3000,6500,1,,,,,,
+Attic Conversions,attic-conversions,6,Comfort Systems,single,4,HVAC upgrade,Larger scope,3500,7500,1,,,,,,
+Attic Conversions,attic-conversions,7,Optional Add Ons,multiple,1,Add dormer,More space,20000,55000,1,,,,,,
+Attic Conversions,attic-conversions,7,Optional Add Ons,multiple,2,Skylight,Natural light,1800,3800,1,,,,,,
+Attic Conversions,attic-conversions,7,Optional Add Ons,multiple,3,Half bathroom,Toilet sink,7500,14000,1,,,,use-type,suite-preparation,any
+Attic Conversions,attic-conversions,7,Optional Add Ons,multiple,4,Full bathroom,Complete bath,14000,28000,1,,,,use-type,suite-preparation,any
+Attic Conversions,attic-conversions,7,Optional Add Ons,multiple,5,Built-in storage,Custom storage,1500,3500,1,,,,,,
+Basement Remodel,basement-remodel,1,Current Condition,single,1,Unfinished Basement,Open space,3000,8000,1,,,,,,
+Basement Remodel,basement-remodel,1,Current Condition,single,2,Partly Finished,Some work done,1000,4000,1,,,,,,
+Basement Remodel,basement-remodel,1,Current Condition,single,3,Finished Basement,Update space,0,1000,1,,,,,,
+Basement Remodel,basement-remodel,2,Basement Size,single,1,Small Basement,Under 500 sf,12000,22000,1,,,,,,
+Basement Remodel,basement-remodel,2,Basement Size,single,2,Medium Basement,500-900 sf,20000,38000,1,,,,,,
+Basement Remodel,basement-remodel,2,Basement Size,single,3,Large Basement,900+ sf,32000,60000,1,,,,,,
+Basement Remodel,basement-remodel,3,Bedrooms,single,1,No Bedrooms,Open layout,0,500,1,,,,,,
+Basement Remodel,basement-remodel,3,Bedrooms,single,2,One New Bedroom,One bedroom,1500,3500,1,,,,,,
+Basement Remodel,basement-remodel,3,Bedrooms,single,3,Two New Bedrooms,Two bedrooms,3000,6500,1,,,,,,
+Basement Remodel,basement-remodel,3,Bedrooms,single,4,Three New Bedrooms,Three bedrooms,4500,9000,1,,,,,,
+Basement Remodel,basement-remodel,4,Egress Windows,single,1,No Egress Window,None needed,0,0,1,,,,,,
+Basement Remodel,basement-remodel,4,Egress Windows,single,2,One Egress Window,One window,1800,3500,1,,,,,,
+Basement Remodel,basement-remodel,4,Egress Windows,single,3,Two Egress Windows,Two windows,3200,6000,1,,,,,,
+Basement Remodel,basement-remodel,4,Egress Windows,single,4,Three Egress Windows,Three windows,4500,8500,1,,,,,,
+Basement Remodel,basement-remodel,5,Bathroom,single,1,No New Bathroom,No bathroom,0,0,1,,,,,,
+Basement Remodel,basement-remodel,5,Bathroom,single,2,Half Bathroom,Toilet sink,5000,10000,1,,,,,,
+Basement Remodel,basement-remodel,5,Bathroom,single,3,Full Bathroom,Full bath,10000,22000,1,,,,,,
+Basement Remodel,basement-remodel,5,Bathroom,single,4,Primary Bathroom,Larger bath,16000,32000,1,,,,,,
+Basement Remodel,basement-remodel,6,Finish Level,single,1,Basic Finish,Clean finish,0,1200,1,,,,,,
+Basement Remodel,basement-remodel,6,Finish Level,single,2,Standard Finish,Better finish,1500,3000,1,,,,,,
+Basement Remodel,basement-remodel,6,Finish Level,single,3,Upgraded Finish,Nicer finish,3000,5500,1,,,,,,
+Basement Remodel,basement-remodel,7,Moisture Work,single,1,No Additional Moisture Work,No added moisture work,0,0,1,,,,,,
+Basement Remodel,basement-remodel,7,Moisture Work,single,2,Basic Moisture Prep,Basic prep,0,1000,1,,,,,,
+Basement Remodel,basement-remodel,7,Moisture Work,single,3,Waterproofing,Membrane drain pump,1800,4000,1,,,,,,
+Basement Remodel,basement-remodel,8,Optional Add Ons,multiple,1,Laundry Area,Utility space,800,1800,1,,,,,,
+Basement Remodel,basement-remodel,8,Optional Add Ons,multiple,2,Wet Bar,Small bar,1200,2800,1,,,,,,
+Basement Remodel,basement-remodel,8,Optional Add Ons,multiple,3,Rebuild Existing Staircase,Improve interior stairs,1500,4000,1,,,,,,
+Basement Remodel,basement-remodel,8,Optional Add Ons,multiple,4,Install New Concrete Staircase,New exterior stairs,4000,9000,1,,,,,,
+Bathroom Remodel,bathroom-remodel,1,Bathroom Size,single,1,Powder Room,Small bath,4000,7500,1,,,,,,
+Bathroom Remodel,bathroom-remodel,1,Bathroom Size,single,2,Standard Bathroom,Full bath,7500,12000,1,,,,,,
+Bathroom Remodel,bathroom-remodel,1,Bathroom Size,single,3,Primary Bathroom,Larger bath,11000,18000,1,,,,,,
+Bathroom Remodel,bathroom-remodel,2,Remodel Level,single,1,Cosmetic Refresh,Surface updates,0,3000,1,,,,,,
+Bathroom Remodel,bathroom-remodel,2,Remodel Level,single,2,Standard Remodel,New finishes,5000,7750,1,,,,,,
+Bathroom Remodel,bathroom-remodel,2,Remodel Level,single,3,Full Gut Remodel,Open walls,10000,18250,1,,,,,,
+Bathroom Remodel,bathroom-remodel,3,Layout Changes,single,1,Keep Layout,No wall changes,0,1000,1,remodel-level,standard-remodel|full-gut-remodel,any,,,
+Bathroom Remodel,bathroom-remodel,3,Layout Changes,single,2,Move Non-Structural Wall,Open layout,2000,6000,1,remodel-level,standard-remodel|full-gut-remodel,any,,,
+Bathroom Remodel,bathroom-remodel,3,Layout Changes,single,3,Move Structural Wall,Beam needed,8000,16000,1,remodel-level,standard-remodel|full-gut-remodel,any,remodel-level,full-gut-remodel,any
+Bathroom Remodel,bathroom-remodel,4,Shower or Tub,single,1,Keep Existing Shower or Tub,No fixture replacement,0,0,1,bathroom-size,standard-bathroom|primary-bathroom,any,,,
+Bathroom Remodel,bathroom-remodel,4,Shower or Tub,single,2,Refinish Existing Tub or Shower,Refresh existing fixture,400,900,1,bathroom-size,standard-bathroom|primary-bathroom,any,,,
+Bathroom Remodel,bathroom-remodel,4,Shower or Tub,single,3,New Tub Shower,Standard combo,3500,7250,1,bathroom-size,standard-bathroom|primary-bathroom,any,remodel-level,standard-remodel|full-gut-remodel,any
+Bathroom Remodel,bathroom-remodel,4,Shower or Tub,single,4,New Walk-in Shower,Tile shower,6000,12750,1,bathroom-size,standard-bathroom|primary-bathroom,any,remodel-level,standard-remodel|full-gut-remodel,any
+Bathroom Remodel,bathroom-remodel,5,Vanity,single,1,Keep Existing Vanity,No vanity work,0,0,1,,,,,,
+Bathroom Remodel,bathroom-remodel,5,Vanity,single,2,Basic Vanity,Simple cabinet,800,1700,1,,,,,,
+Bathroom Remodel,bathroom-remodel,5,Vanity,single,3,Double Vanity,Two sinks,2000,4800,1,,,,bathroom-size,standard-bathroom|primary-bathroom,any
+Bathroom Remodel,bathroom-remodel,5,Vanity,single,4,Custom Vanity,Built custom,4500,8250,1,,,,,,
+Bathroom Remodel,bathroom-remodel,6,Optional Add Ons,multiple,1,Tile Floor,New tile,1200,3000,1,,,,,,
+Bathroom Remodel,bathroom-remodel,6,Optional Add Ons,multiple,2,Heated Floor,Warm floor,1200,3000,1,,,,,,
+Bathroom Remodel,bathroom-remodel,6,Optional Add Ons,multiple,3,New Bathroom Fan,Better air,400,1050,1,,,,,,
+Bathroom Remodel,bathroom-remodel,6,Optional Add Ons,multiple,4,Glass Door,Shower glass,700,2000,1,,,,shower-or-tub,new-walk-in-shower,any
+Cabinetry,cabinetry,1,Project Type,single,1,Cabinet Repair,Fix cabinets,300,950,1,,,,,,
+Cabinetry,cabinetry,1,Project Type,single,2,Cabinet Reface,New fronts,4000,7500,1,,,,,,
+Cabinetry,cabinetry,1,Project Type,single,3,New Cabinets,Replace all,6500,11250,1,,,,,,
+Cabinetry,cabinetry,2,Cabinet Area,single,1,Small Cabinet Area,Bathroom or small cabinet area,0,1800,1,,,,,,
+Cabinetry,cabinetry,2,Cabinet Area,single,2,Standard Kitchen,Typical kitchen layout,2000,5500,1,,,,,,
+Cabinetry,cabinetry,2,Cabinet Area,single,3,Large Kitchen,Large layout with more storage,5000,12000,1,,,,,,
+Cabinetry,cabinetry,3,Cabinet Grade,single,1,Stock Cabinets,Budget line,0,2500,1,project-type,new-cabinets,any,,,
+Cabinetry,cabinetry,3,Cabinet Grade,single,2,Semi-custom,Better fit,3500,6000,1,project-type,new-cabinets,any,,,
+Cabinetry,cabinetry,3,Cabinet Grade,single,3,Custom Cabinets,Built to fit,8000,16000,1,project-type,new-cabinets,any,,,
+Cabinetry,cabinetry,4,Optional Add Ons,multiple,1,Soft-close Hardware,Upgrade doors and drawers,300,750,1,,,,project-type,cabinet-reface|new-cabinets,any
+Cabinetry,cabinetry,4,Optional Add Ons,multiple,2,Pull-out Storage,Add accessible cabinet storage,500,1700,1,,,,project-type,cabinet-reface|new-cabinets,any
+Cabinetry,cabinetry,4,Optional Add Ons,multiple,3,Crown Molding,Add finished upper trim,400,1400,1,,,,project-type,new-cabinets,any
+Cabinetry,cabinetry,4,Optional Add Ons,multiple,4,Cabinet Painting,Paint existing cabinet surfaces,1500,5000,1,,,,project-type,cabinet-repair|cabinet-reface,any
+Cabinetry,cabinetry,4,Optional Add Ons,multiple,5,New Knobs and Pulls,Replace visible cabinet hardware,300,1500,1,,,,project-type,cabinet-repair|cabinet-reface|new-cabinets,any
+Cabinetry,cabinetry,4,Optional Add Ons,multiple,6,Interior Shelf Replacement,Replace damaged cabinet shelves,300,1200,1,,,,project-type,cabinet-repair,any
+Cabinetry,cabinetry,4,Optional Add Ons,multiple,7,Door or Drawer Replacement,Replace damaged cabinet parts,400,1800,1,,,,project-type,cabinet-repair,any
+Concrete,concrete,1,Concrete Project,single,1,Small Concrete Repair,Repair cracks or small damage,400,1500,1,,,,,,
+Concrete,concrete,1,Concrete Project,single,2,Walkway Patio or Pad,Small concrete flatwork,1800,3900,1,,,,,,
+Concrete,concrete,1,Concrete Project,single,3,Concrete Driveway,New or replacement driveway,4500,8250,1,,,,,,
+Concrete,concrete,2,Size,single,1,Small Area,Under 200 square feet,0,1500,1,concrete-project,walkway-patio-or-pad|concrete-driveway,any,,,
+Concrete,concrete,2,Size,single,2,Medium Area,200 to 600 square feet,1500,3900,1,concrete-project,walkway-patio-or-pad|concrete-driveway,any,,,
+Concrete,concrete,2,Size,single,3,Large Area,Over 600 square feet,4000,9000,1,concrete-project,walkway-patio-or-pad|concrete-driveway,any,,,
+Concrete,concrete,3,Finish Type,single,1,Standard Broom Finish,Slip-resistant standard finish,0,0,1,concrete-project,walkway-patio-or-pad|concrete-driveway,any,,,
+Concrete,concrete,3,Finish Type,single,2,Colored Concrete,Add integral concrete color,700,2400,1,concrete-project,walkway-patio-or-pad|concrete-driveway,any,,,
+Concrete,concrete,3,Finish Type,single,3,Stamped Concrete,Add a decorative pattern,1800,5000,1,concrete-project,walkway-patio-or-pad|concrete-driveway,any,,,
+Concrete,concrete,4,Optional Add Ons,multiple,1,Remove Existing Concrete,Demolish and dispose of old concrete,800,3500,1,concrete-project,walkway-patio-or-pad|concrete-driveway,any,concrete-project,walkway-patio-or-pad|concrete-driveway,any
+Concrete,concrete,4,Optional Add Ons,multiple,2,Drainage and Grading Prep,Improve slope and water control,500,3000,1,concrete-project,walkway-patio-or-pad|concrete-driveway,any,concrete-project,walkway-patio-or-pad|concrete-driveway,any
+Concrete,concrete,4,Optional Add Ons,multiple,3,Reinforcement Upgrade,Add stronger reinforcement,400,1650,1,concrete-project,walkway-patio-or-pad|concrete-driveway,any,concrete-project,walkway-patio-or-pad|concrete-driveway,any
+Concrete,concrete,4,Optional Add Ons,multiple,4,Concrete Sealer,Protect the finished concrete,400,1500,1,concrete-project,walkway-patio-or-pad|concrete-driveway,any,,,
+Countertops,countertops,1,Material,single,1,Laminate,Budget top,900,2200,1,,,,,,
+Countertops,countertops,1,Material,single,2,Butcher Block,Wood top,1600,3700,1,,,,,,
+Countertops,countertops,1,Material,single,3,Quartz,Popular choice,2500,5500,1,,,,,,
+Countertops,countertops,1,Material,single,4,Natural Stone,Stone slab,4000,7750,1,,,,,,
+Countertops,countertops,2,Counter Area,single,1,Small Kitchen,Less surface,0,900,1,,,,,,
+Countertops,countertops,2,Counter Area,single,2,Standard Kitchen,Typical area,900,2500,1,,,,,,
+Countertops,countertops,2,Counter Area,single,3,Large Kitchen,More surface,1800,4500,1,,,,,,
+Countertops,countertops,3,Edge,single,1,Standard Edge,Simple finished edge,0,0,1,,,,,,
+Countertops,countertops,3,Edge,single,2,Decorative Edge,Upgraded finished edge,400,1200,1,,,,,,
+Countertops,countertops,4,Optional Add Ons,multiple,1,Undermount Sink Cutout,Cut and finish sink opening,250,700,1,,,,material,quartz|natural-stone,any
+Countertops,countertops,4,Optional Add Ons,multiple,2,Matching Backsplash,Add matching backsplash,500,1950,1,,,,material,laminate|butcher-block,any
+Countertops,countertops,4,Optional Add Ons,multiple,3,Remove Existing Countertops,Remove and dispose of old tops,300,1000,1,,,,,,
+Countertops,countertops,4,Optional Add Ons,multiple,4,Sink and Faucet Reconnect,Reconnect existing plumbing fixtures,400,1200,1,,,,,,
+Countertops,countertops,4,Optional Add Ons,multiple,5,Butcher Block Sealing,Protect and finish the wood,300,900,1,,,,material,butcher-block,any
+Countertops,countertops,4,Optional Add Ons,multiple,6,Natural Stone Sealing,Seal and protect the stone,300,900,1,,,,material,natural-stone,any
+Countertops,countertops,4,Optional Add Ons,multiple,7,Waterfall Edge,Extend quartz down the cabinet side,1500,4500,1,,,,material,quartz,any
+Deck,deck,1,Deck Project,single,1,Deck Repair,Fix boards,500,1750,1,,,,,,
+Deck,deck,1,Deck Project,single,2,Deck Resurface,New surface,2800,6750,1,,,,,,
+Deck,deck,1,Deck Project,single,3,New Deck,Build new,6500,11250,1,,,,,,
+Deck,deck,2,Deck Size,single,1,Small Deck,Under 200 sf,0,3000,1,deck-project,deck-resurface|new-deck,any,,,
+Deck,deck,2,Deck Size,single,2,Medium Deck,200-400 sf,4700,7250,1,deck-project,deck-resurface|new-deck,any,,,
+Deck,deck,2,Deck Size,single,3,Large Deck,400+ sf,10000,17000,1,deck-project,deck-resurface|new-deck,any,,,
+Deck,deck,3,Deck Material,single,1,Pressure Treated,Basic wood,0,1800,1,deck-project,deck-resurface|new-deck,any,,,
+Deck,deck,3,Deck Material,single,2,Cedar Decking,Nicer wood,1800,4800,1,deck-project,deck-resurface|new-deck,any,,,
+Deck,deck,3,Deck Material,single,3,Composite Decking,Low maintenance,4000,9250,1,deck-project,deck-resurface|new-deck,any,,,
+Deck,deck,4,Optional Add Ons,multiple,1,Railing Repair or Upgrade,Repair or replace deck railing,1200,4800,1,,,,deck-project,deck-repair|deck-resurface|new-deck,any
+Deck,deck,4,Optional Add Ons,multiple,2,Stair Repair or New Stairs,Repair or add deck stairs,800,3300,1,,,,deck-project,deck-repair|deck-resurface|new-deck,any
+Deck,deck,4,Optional Add Ons,multiple,3,Deck Stain or Seal,Protect the finished deck,800,3500,1,,,,deck-project,deck-repair|deck-resurface,any
+Deck,deck,4,Optional Add Ons,multiple,4,Remove Existing Deck,Demolish and dispose of old deck,800,3500,1,,,,deck-project,new-deck,any
+Deck,deck,4,Optional Add Ons,multiple,5,Structural Framing Repair,Repair damaged deck framing,1000,5000,1,,,,deck-project,deck-repair|deck-resurface,any
+Deck,deck,4,Optional Add Ons,multiple,6,Deck Lighting,Add low-voltage deck lighting,600,2500,1,,,,deck-project,new-deck,any
+Electrical,electrical,1,Electrical Project,single,1,Small Repair,Fix issue,200,750,1,,,,,,
+Electrical,electrical,1,Electrical Project,single,2,Room Updates,Outlets lights,600,1800,1,,,,,,
+Electrical,electrical,1,Electrical Project,single,3,Panel or Service Upgrade,Panel or service work,1200,2500,1,,,,,,
+Electrical,electrical,1,Electrical Project,single,4,Level 2 EV Charger,Home charging circuit,1200,3500,1,,,,,,
+Electrical,electrical,2,Scope,single,1,One Electrical Issue,Single repair or diagnosis,0,250,1,,,,electrical-project,small-repair,any
+Electrical,electrical,2,Scope,single,2,Several Small Issues,Multiple minor repairs,300,1000,1,,,,electrical-project,small-repair,any
+Electrical,electrical,2,Scope,single,3,Inspection and Repairs,Safety review and fixes,250,1200,1,,,,electrical-project,small-repair,any
+Electrical,electrical,2,Scope,single,4,One Room,Update one room,0,800,1,,,,electrical-project,room-updates,any
+Electrical,electrical,2,Scope,single,5,Several Rooms,Update several rooms,800,2800,1,,,,electrical-project,room-updates,any
+Electrical,electrical,2,Scope,single,6,Whole-Home Updates,Larger wiring scope,3000,9000,1,,,,electrical-project,room-updates,any
+Electrical,electrical,2,Scope,single,7,Add Subpanel,New secondary panel,0,1800,1,,,,electrical-project,panel-or-service-upgrade,any
+Electrical,electrical,2,Scope,single,8,Replace Main Panel,New breaker panel,1500,3500,1,,,,electrical-project,panel-or-service-upgrade,any
+Electrical,electrical,2,Scope,single,9,Upgrade to 200-Amp Service,Larger electrical service,2500,5000,1,,,,electrical-project,panel-or-service-upgrade,any
+Electrical,electrical,2,Scope,single,10,Charger Near Panel,Short circuit run,0,500,1,,,,electrical-project,level-2-ev-charger,any
+Electrical,electrical,2,Scope,single,11,Standard Circuit Run,Typical charger wiring,500,1500,1,,,,electrical-project,level-2-ev-charger,any
+Electrical,electrical,2,Scope,single,12,Long or Difficult Run,Extended conduit and wiring,1500,3500,1,,,,electrical-project,level-2-ev-charger,any
+Electrical,electrical,3,Optional Add Ons,multiple,1,Replace GFCI or AFCI Device,Update safety protection,180,500,1,,,,electrical-project,small-repair,any
+Electrical,electrical,3,Optional Add Ons,multiple,2,Add Standard Outlet,One new outlet,150,350,1,,,,electrical-project,small-repair,any
+Electrical,electrical,3,Optional Add Ons,multiple,3,Electrical Safety Inspection,Review panel and circuits,200,450,1,,,,electrical-project,small-repair,any
+Electrical,electrical,3,Optional Add Ons,multiple,4,Smoke and CO Detector Wiring,Hardwired safety alarms,250,900,1,,,,electrical-project,small-repair,any
+Electrical,electrical,3,Optional Add Ons,multiple,5,Additional Outlets,Add several outlets,250,1200,1,,,,electrical-project,room-updates,any
+Electrical,electrical,3,Optional Add Ons,multiple,6,Recessed Lighting Package,Four to eight lights,1200,3500,1,,,,electrical-project,room-updates,any
+Electrical,electrical,3,Optional Add Ons,multiple,7,Dedicated Appliance Circuit,New dedicated circuit,500,1500,1,,,,electrical-project,room-updates,any
+Electrical,electrical,3,Optional Add Ons,multiple,8,Smart Switches or Dimmers,Lighting control upgrades,300,1200,1,,,,electrical-project,room-updates,any
+Electrical,electrical,3,Optional Add Ons,multiple,9,Whole-Home Surge Protection,Panel surge device,350,900,1,,,,electrical-project,panel-or-service-upgrade,any
+Electrical,electrical,3,Optional Add Ons,multiple,10,Grounding and Bonding Upgrade,Improve electrical safety,500,1800,1,,,,electrical-project,panel-or-service-upgrade,any
+Electrical,electrical,3,Optional Add Ons,multiple,11,Generator Inlet and Interlock,Portable generator connection,900,2500,1,,,,electrical-project,panel-or-service-upgrade,any
+Electrical,electrical,3,Optional Add Ons,multiple,12,Meter or Service Mast Work,Exterior service equipment,1200,4000,1,,,,electrical-project,panel-or-service-upgrade,any
+Electrical,electrical,3,Optional Add Ons,multiple,13,Panel Capacity Upgrade,More capacity if required,1800,6000,1,,,,electrical-project,level-2-ev-charger,any
+Electrical,electrical,3,Optional Add Ons,multiple,14,Smart Load Management,Avoid service overload,800,1800,1,,,,electrical-project,level-2-ev-charger,any
+Electrical,electrical,3,Optional Add Ons,multiple,15,Outdoor Weatherproof Installation,Exterior charger location,400,1200,1,,,,electrical-project,level-2-ev-charger,any
+Electrical,electrical,3,Optional Add Ons,multiple,16,Second EV Charging Circuit,Prepare for another vehicle,1200,3000,1,,,,electrical-project,level-2-ev-charger,any
+Fencing,fencing,1,Fence Project,single,1,Fence Repair,Fix sections,400,1500,1,,,,,,
+Fencing,fencing,1,Fence Project,single,2,Partial Fence,One side,1800,4800,1,,,,,,
+Fencing,fencing,1,Fence Project,single,3,Full Fence,Yard fence,4500,7750,1,,,,,,
+Fencing,fencing,2,Fence Material,single,1,Wood Fence,Standard wood,0,1500,1,fence-project,partial-fence|full-fence,any,,,
+Fencing,fencing,2,Fence Material,single,2,Cedar Fence,Nicer wood,1200,3900,1,fence-project,partial-fence|full-fence,any,,,
+Fencing,fencing,2,Fence Material,single,3,Vinyl Fence,Low maintenance,2200,6250,1,fence-project,partial-fence|full-fence,any,,,
+Fencing,fencing,3,Fence Height,single,1,Standard Height,Typical height,0,500,1,fence-project,partial-fence|full-fence,any,,,
+Fencing,fencing,3,Fence Height,single,2,Tall Fence,More privacy,800,3200,1,fence-project,partial-fence|full-fence,any,,,
+Fencing,fencing,4,Optional Add Ons,multiple,1,Gate,One gate,250,800,1,fence-project,partial-fence|full-fence,any,fence-project,partial-fence|full-fence,any
+Fencing,fencing,4,Optional Add Ons,multiple,2,Remove Old Fence,Demo fence,500,1800,1,fence-project,partial-fence|full-fence,any,fence-project,partial-fence|full-fence,any
+Flooring,flooring,1,Flooring Project,single,1,One Room,Floor one room,600,1850,1,,,,,,
+Flooring,flooring,1,Flooring Project,single,2,Several Rooms,Floor several connected rooms,2200,5000,1,,,,,,
+Flooring,flooring,1,Flooring Project,single,3,Whole-Home Flooring,Replace flooring throughout,6500,12500,1,,,,,,
+Flooring,flooring,2,Flooring Type,single,1,Vinyl Plank,Durable low-maintenance floor,0,2000,1,,,,,,
+Flooring,flooring,2,Flooring Type,single,2,Laminate,Affordable wood-look floor,500,1850,1,,,,,,
+Flooring,flooring,2,Flooring Type,single,3,Hardwood,Solid or engineered wood,3000,8500,1,,,,,,
+Flooring,flooring,2,Flooring Type,single,4,Tile,Ceramic or porcelain tile,2200,6750,1,,,,,,
+Flooring,flooring,2,Flooring Type,single,5,Carpet,Soft carpet flooring,0,1500,1,,,,,,
+Flooring,flooring,3,Prep Level,single,1,Ready for Installation,No added floor preparation,0,0,1,,,,,,
+Flooring,flooring,3,Prep Level,single,2,Minor Floor Prep,Small repairs or leveling,500,1500,1,,,,,,
+Flooring,flooring,3,Prep Level,single,3,Major Floor Prep,Extensive repair or leveling,1500,4000,1,,,,,,
+Flooring,flooring,4,Optional Add Ons,multiple,1,Remove Existing Flooring,Remove and dispose of old flooring,400,1600,1,,,,,,
+Flooring,flooring,4,Optional Add Ons,multiple,2,Subfloor Repair,Repair damaged subfloor,700,2300,1,,,,,,
+Flooring,flooring,4,Optional Add Ons,multiple,3,Floor Leveling,Correct uneven floor areas,600,1950,1,,,,,,
+Flooring,flooring,4,Optional Add Ons,multiple,4,Enhanced Moisture Barrier,Upgrade underlayment protection,300,1200,1,,,,flooring-type,vinyl-plank|laminate|hardwood,any
+Flooring,flooring,4,Optional Add Ons,multiple,5,Grout Sealing,Protect finished grout,250,800,1,,,,flooring-type,tile,any
+Flooring,flooring,4,Optional Add Ons,multiple,6,Premium Carpet Pad,Upgrade comfort and durability,300,1200,1,,,,flooring-type,carpet,any
+Foundation Repair,foundation-repair,1,Foundation Issue,single,1,Small Crack Repair,Minor crack,400,1300,1,,,,,,
+Foundation Repair,foundation-repair,1,Foundation Issue,single,2,Water Intrusion,Leaks,1800,5000,1,,,,,,
+Foundation Repair,foundation-repair,1,Foundation Issue,single,3,Settling Concern,Movement,4500,10750,1,,,,,,
+Foundation Repair,foundation-repair,2,Repair Type,single,1,Seal One Crack,Repair one accessible crack,0,0,1,,,,foundation-issue,small-crack-repair,any
+Foundation Repair,foundation-repair,2,Repair Type,single,2,Seal Several Cracks,Repair multiple cracks,400,1500,1,,,,foundation-issue,small-crack-repair,any
+Foundation Repair,foundation-repair,2,Repair Type,single,3,Reinforce Damaged Area,Strengthen a limited wall area,1500,4500,1,,,,foundation-issue,small-crack-repair,any
+Foundation Repair,foundation-repair,2,Repair Type,single,4,Interior Crack Sealing,Seal active interior leaks,0,1500,1,,,,foundation-issue,water-intrusion,any
+Foundation Repair,foundation-repair,2,Repair Type,single,5,Interior Drain and Sump System,Collect and remove groundwater,3500,9000,1,,,,foundation-issue,water-intrusion,any
+Foundation Repair,foundation-repair,2,Repair Type,single,6,Exterior Waterproofing,Excavate and waterproof outside,6000,15000,1,,,,foundation-issue,water-intrusion,any
+Foundation Repair,foundation-repair,2,Repair Type,single,7,Stabilize One Area,Support a localized settling area,0,5000,1,,,,foundation-issue,settling-concern,any
+Foundation Repair,foundation-repair,2,Repair Type,single,8,Multiple Support Points,Stabilize several foundation areas,6000,15000,1,,,,foundation-issue,settling-concern,any
+Foundation Repair,foundation-repair,2,Repair Type,single,9,Major Structural Stabilization,Larger foundation support project,15000,35000,1,,,,foundation-issue,settling-concern,any
+Foundation Repair,foundation-repair,3,Optional Add Ons,multiple,1,Additional Crack Repair,Repair another foundation crack,400,1500,1,,,,foundation-issue,small-crack-repair,any
+Foundation Repair,foundation-repair,3,Optional Add Ons,multiple,2,Drainage Improvement,Improve water flow away from home,1200,5000,1,,,,foundation-issue,small-crack-repair|water-intrusion|settling-concern,any
+Foundation Repair,foundation-repair,3,Optional Add Ons,multiple,3,Professional Structural Review,Document conditions and recommendations,600,2000,1,,,,foundation-issue,small-crack-repair|water-intrusion|settling-concern,any
+Foundation Repair,foundation-repair,3,Optional Add Ons,multiple,4,Backup Sump Pump,Add backup water removal,800,2500,1,,,,foundation-issue,water-intrusion,any
+Foundation Repair,foundation-repair,3,Optional Add Ons,multiple,5,Wall Moisture Treatment,Treat and protect interior walls,800,2500,1,,,,foundation-issue,water-intrusion,any
+Foundation Repair,foundation-repair,3,Optional Add Ons,multiple,6,Foundation Wall Bracing,Add structural wall supports,3000,12000,1,,,,foundation-issue,settling-concern,any
+Foundation Repair,foundation-repair,3,Optional Add Ons,multiple,7,Floor Leveling,Correct floors affected by movement,1500,6000,1,,,,foundation-issue,settling-concern,any
+Garage Conversions,garage-conversions,1,Garage Size,single,1,Single Garage,One car,15000,23000,1,,,,,,
+Garage Conversions,garage-conversions,1,Garage Size,single,2,Two Car Garage,Two car,22500,35000,1,,,,,,
+Garage Conversions,garage-conversions,1,Garage Size,single,3,Large Garage,Bigger space,30500,47500,1,,,,,,
+Garage Conversions,garage-conversions,2,Use Type,single,1,Office or Studio,Simple use,0,4000,1,,,,,,
+Garage Conversions,garage-conversions,2,Use Type,single,2,Bedroom Space,Living space,6750,10500,1,,,,,,
+Garage Conversions,garage-conversions,2,Use Type,single,3,ADU Preparation,Future ADU layout,18500,28500,1,,,,,,
+Garage Conversions,garage-conversions,3,Sleeping Room Egress,single,1,Existing Code-Compliant Egress,Existing safe exit,0,0,1,use-type,bedroom-space|adu-preparation,any,,,
+Garage Conversions,garage-conversions,3,Sleeping Room Egress,single,2,Add Egress Window or Exterior Door,New code-compliant exit,2500,6000,1,use-type,bedroom-space|adu-preparation,any,,,
+Garage Conversions,garage-conversions,4,Core Work,single,1,Basic Conversion,Insulate finish,0,4000,1,,,,,,
+Garage Conversions,garage-conversions,4,Core Work,single,2,Standard Conversion,Better finish,4000,10000,1,,,,,,
+Garage Conversions,garage-conversions,4,Core Work,single,3,Full Conversion,More systems,10000,21500,1,,,,,,
+Garage Conversions,garage-conversions,5,Optional Add Ons,multiple,1,Bathroom,Add full bathroom,12000,26500,1,,,,use-type,bedroom-space|adu-preparation,any
+Garage Conversions,garage-conversions,5,Optional Add Ons,multiple,2,Kitchenette,Compact cooking area,7000,13000,1,,,,use-type,adu-preparation,any
+Garage Conversions,garage-conversions,5,Optional Add Ons,multiple,3,Additional Window,More light and ventilation,1200,3500,1,,,,,,
+Garage Conversions,garage-conversions,5,Optional Add Ons,multiple,4,Dedicated Heating and Cooling,Mini split or system extension,3000,7500,1,,,,,,
+Gutters,gutters,1,Gutter Project,single,1,Gutter Cleaning,Clean gutters,100,300,1,,,,,,
+Gutters,gutters,1,Gutter Project,single,2,Gutter Repair,Fix sections,250,850,1,,,,,,
+Gutters,gutters,1,Gutter Project,single,3,New Gutters,Replace all,800,1250,1,,,,,,
+Gutters,gutters,2,Home Size,single,1,Small Home,Less roofline,0,600,1,gutter-project,gutter-cleaning|new-gutters,any,,,
+Gutters,gutters,2,Home Size,single,2,Standard Home,Typical roofline,500,1250,1,gutter-project,gutter-cleaning|new-gutters,any,,,
+Gutters,gutters,2,Home Size,single,3,Large Home,More roofline,1000,2500,1,gutter-project,gutter-cleaning|new-gutters,any,,,
+Gutters,gutters,3,Gutter Type,single,1,Aluminum Gutters,Standard gutters,0,500,1,gutter-project,new-gutters,any,,,
+Gutters,gutters,3,Gutter Type,single,2,Seamless Gutters,Better fit,400,1000,1,gutter-project,new-gutters,any,,,
+Gutters,gutters,3,Gutter Type,single,3,Copper Gutters,Premium metal,2200,6750,1,gutter-project,new-gutters,any,,,
+Gutters,gutters,4,Optional Add Ons,multiple,1,Gutter Guards,Leaf guards,400,1800,1,,,,gutter-project,gutter-cleaning|new-gutters,any
+Gutters,gutters,4,Optional Add Ons,multiple,2,Downspouts,New downspouts,200,700,1,,,,gutter-project,gutter-repair|new-gutters,any
+Gutters,gutters,4,Optional Add Ons,multiple,3,Fascia Repair,Wood repair,400,1800,1,,,,gutter-project,gutter-repair|new-gutters,any
+Gutters,gutters,4,Optional Add Ons,multiple,4,Minor Gutter Sealing,Seal small leaks and joints,200,700,1,,,,gutter-project,gutter-cleaning|gutter-repair,any
+Handyman,handyman,1,Project Size,single,1,One Small Task,One quick repair or installation,120,300,1,,,,,,
+Handyman,handyman,1,Project Size,single,2,Half-Day Project,Several small household tasks,350,600,1,,,,,,
+Handyman,handyman,1,Project Size,single,3,Full-Day Project,A larger list of tasks,650,1150,1,,,,,,
+Handyman,handyman,2,Work Type,single,1,Home Repairs,Repair damaged household items,0,0,1,,,,,,
+Handyman,handyman,2,Work Type,single,2,Installation and Mounting,Install or mount household items,100,350,1,,,,,,
+Handyman,handyman,2,Work Type,single,3,Mixed Punch List,Complete several different tasks,200,600,1,,,,,,
+Handyman,handyman,3,Optional Add Ons,multiple,1,Contractor-Supplied Materials,Common hardware and small materials,50,300,1,,,,work-type,home-repairs|installation-and-mounting|mixed-punch-list,any
+Handyman,handyman,3,Optional Add Ons,multiple,2,Wall Patching and Touch-Up,Patch small wall damage,150,600,1,,,,work-type,home-repairs|mixed-punch-list,any
+Handyman,handyman,3,Optional Add Ons,multiple,3,Door and Hardware Repair,Adjust or repair a door,150,700,1,,,,work-type,home-repairs|mixed-punch-list,any
+Handyman,handyman,3,Optional Add Ons,multiple,4,TV or Artwork Mounting,Securely mount wall items,150,500,1,,,,work-type,installation-and-mounting,any
+Handyman,handyman,3,Optional Add Ons,multiple,5,Shelf or Fixture Installation,Install shelves or household fixtures,150,700,1,,,,work-type,installation-and-mounting|mixed-punch-list,any
+Handyman,handyman,3,Optional Add Ons,multiple,6,Haul-Away and Cleanup,Remove small project debris,100,400,1,,,,work-type,home-repairs|installation-and-mounting,any
+Home Addition,home-addition,1,Addition Size,single,1,Small Addition,Under 250 sf,35000,65000,1,,,,,,
+Home Addition,home-addition,1,Addition Size,single,2,Medium Addition,250-500 sf,55000,95000,1,,,,,,
+Home Addition,home-addition,1,Addition Size,single,3,Large Addition,500+ sf,90000,155000,1,,,,,,
+Home Addition,home-addition,2,Addition Type,single,1,Bedroom or Office Addition,New bedroom or work space,0,8000,1,,,,,,
+Home Addition,home-addition,2,Addition Type,single,2,Living Area Addition,Family room or expanded living,5000,15000,1,,,,,,
+Home Addition,home-addition,2,Addition Type,single,3,Primary Suite Addition,Bedroom and bathroom suite,10000,25000,1,,,,,,
+Home Addition,home-addition,2,Addition Type,single,4,Second-Story Addition,Build a new upper level,30000,55000,1,,,,,,
+Home Addition,home-addition,3,Build Level,single,1,Basic Build,Simple finish,0,8000,1,,,,,,
+Home Addition,home-addition,3,Build Level,single,2,Standard Build,Better finish,8000,20000,1,,,,,,
+Home Addition,home-addition,3,Build Level,single,3,Upgraded Build,Nicer details,25000,42500,1,,,,,,
+Home Addition,home-addition,4,Bathroom,single,1,No New Bathroom,Keep the addition bathroom-free,0,0,1,,,,addition-type,bedroom-or-office-addition|living-area-addition|second-story-addition,any
+Home Addition,home-addition,4,Bathroom,single,2,Half Bathroom,Add toilet and sink,8000,18000,1,,,,addition-type,bedroom-or-office-addition|living-area-addition|second-story-addition,any
+Home Addition,home-addition,4,Bathroom,single,3,Full Bathroom,Add a complete bathroom,18000,32000,1,,,,addition-type,bedroom-or-office-addition|primary-suite-addition|second-story-addition,any
+Home Addition,home-addition,4,Bathroom,single,4,Primary Bathroom,Add a larger upgraded bathroom,30000,50000,1,,,,addition-type,primary-suite-addition|second-story-addition,any
+Home Addition,home-addition,5,Kitchen,single,1,No Kitchen,No kitchen work,0,0,1,addition-type,living-area-addition|second-story-addition,any,addition-type,living-area-addition|second-story-addition,any
+Home Addition,home-addition,5,Kitchen,single,2,Extend Existing Kitchen,Expand the current kitchen,10000,22500,1,addition-type,living-area-addition|second-story-addition,any,addition-type,living-area-addition,any
+Home Addition,home-addition,5,Kitchen,single,3,New Full Kitchen,Add a complete new kitchen,25000,39000,1,addition-type,living-area-addition|second-story-addition,any,addition-type,second-story-addition,any
+Home Addition,home-addition,6,Optional Add Ons,multiple,1,Extra Windows,Add more natural light,1200,4000,1,,,,addition-type,bedroom-or-office-addition|living-area-addition|primary-suite-addition|second-story-addition,any
+Home Addition,home-addition,6,Optional Add Ons,multiple,2,Exterior Door,Add exterior access,1200,3800,1,,,,addition-type,bedroom-or-office-addition|living-area-addition|primary-suite-addition,any
+Home Addition,home-addition,6,Optional Add Ons,multiple,3,Covered Entry,Add a small covered entrance,2500,8000,1,,,,addition-type,bedroom-or-office-addition|living-area-addition,any
+Home Addition,home-addition,6,Optional Add Ons,multiple,4,New Deck or Patio,Add connected outdoor space,3000,10000,1,,,,addition-type,living-area-addition|primary-suite-addition,any
+Home Addition,home-addition,6,Optional Add Ons,multiple,5,Built-in Storage,Add closets or built-in cabinets,1500,6000,1,,,,addition-type,bedroom-or-office-addition|primary-suite-addition|second-story-addition,any
+Home Addition,home-addition,6,Optional Add Ons,multiple,6,Skylights,Add overhead natural light,1800,5000,1,,,,addition-type,second-story-addition,any
+HVAC,hvac,1,HVAC Project,single,1,AC Installation,Central air,4000,8000,1,,,,,,
+HVAC,hvac,1,HVAC Project,single,2,Mini-Split Installation,Ductless system,3500,7500,1,,,,,,
+HVAC,hvac,1,HVAC Project,single,3,Furnace Replacement,Replace furnace,3500,7500,1,,,,,,
+HVAC,hvac,1,HVAC Project,single,4,Heat Pump Installation,Heating cooling,6000,12000,1,,,,,,
+HVAC,hvac,2,Home Size,single,1,Small Home,Under 1200 sf,0,500,1,,,,,,
+HVAC,hvac,2,Home Size,single,2,Medium Home,1200-2200 sf,700,1550,1,,,,,,
+HVAC,hvac,2,Home Size,single,3,Large Home,2200+ sf,1800,3900,1,,,,,,
+HVAC,hvac,3,System Level,single,1,Basic System,Standard unit,0,500,1,,,,,,
+HVAC,hvac,3,System Level,single,2,Better System,Higher efficiency,700,1550,1,,,,,,
+HVAC,hvac,3,System Level,single,3,Premium System,Best efficiency,2000,3600,1,,,,,,
+HVAC,hvac,4,Optional Add Ons,multiple,1,Smart Thermostat,App-based temperature control,200,500,1,,,,hvac-project,ac-installation|furnace-replacement|heat-pump-installation,any
+HVAC,hvac,4,Optional Add Ons,multiple,2,Electrical Circuit,Dedicated power if needed,600,1500,1,,,,hvac-project,ac-installation|mini-split-installation|heat-pump-installation,any
+HVAC,hvac,4,Optional Add Ons,multiple,3,Line Set Cover,Protect exterior refrigerant lines,300,750,1,,,,hvac-project,mini-split-installation,any
+HVAC,hvac,4,Optional Add Ons,multiple,4,Condensate Pump,Drain support where needed,250,700,1,,,,hvac-project,ac-installation|mini-split-installation|heat-pump-installation,any
+HVAC,hvac,4,Optional Add Ons,multiple,5,Extra Indoor Head,Add another comfort zone,1200,2800,1,,,,hvac-project,mini-split-installation,any
+HVAC,hvac,4,Optional Add Ons,multiple,6,Duct Repair,Seal or repair existing ducts,700,2800,1,,,,hvac-project,ac-installation|furnace-replacement|heat-pump-installation,any
+HVAC,hvac,4,Optional Add Ons,multiple,7,Air Quality Upgrade,Enhanced whole-home filtration,500,1800,1,,,,hvac-project,furnace-replacement,any
+Kitchen Remodel,kitchen-remodel,1,Kitchen Size,single,1,Small Kitchen,Compact kitchen,8000,15000,1,,,,,,
+Kitchen Remodel,kitchen-remodel,1,Kitchen Size,single,2,Medium Kitchen,Typical kitchen,14000,26000,1,,,,,,
+Kitchen Remodel,kitchen-remodel,1,Kitchen Size,single,3,Large Kitchen,Large kitchen,24000,42000,1,,,,,,
+Kitchen Remodel,kitchen-remodel,2,Remodel Level,single,1,Cosmetic Refresh,Surface updates,0,4000,1,,,,,,
+Kitchen Remodel,kitchen-remodel,2,Remodel Level,single,2,Standard Remodel,New finishes,5000,12000,1,,,,,,
+Kitchen Remodel,kitchen-remodel,2,Remodel Level,single,3,Full Remodel,Full update,12000,25500,1,,,,,,
+Kitchen Remodel,kitchen-remodel,3,Layout Changes,single,1,Keep Layout,No wall changes,0,750,1,remodel-level,standard-remodel|full-remodel,any,,,
+Kitchen Remodel,kitchen-remodel,3,Layout Changes,single,2,Move Non-Structural Wall,Open layout,1500,5000,1,remodel-level,standard-remodel|full-remodel,any,,,
+Kitchen Remodel,kitchen-remodel,3,Layout Changes,single,3,Move Structural Wall,Beam needed,7500,20000,1,remodel-level,standard-remodel|full-remodel,any,remodel-level,full-remodel,any
+Kitchen Remodel,kitchen-remodel,4,Cabinets,single,1,Keep Existing Cabinets,No cabinet work,0,0,1,,,,,,
+Kitchen Remodel,kitchen-remodel,4,Cabinets,single,2,Paint Existing Cabinets,Refresh cabinets,1800,5000,1,,,,,,
+Kitchen Remodel,kitchen-remodel,4,Cabinets,single,3,Stock New Cabinets,Budget new,4000,10500,1,,,,remodel-level,standard-remodel|full-remodel,any
+Kitchen Remodel,kitchen-remodel,4,Cabinets,single,4,Custom New Cabinets,Custom cabinetry,10000,22500,1,,,,remodel-level,full-remodel,any
+Kitchen Remodel,kitchen-remodel,5,Countertops,single,1,Keep Existing Countertops,No countertop work,0,0,1,,,,,,
+Kitchen Remodel,kitchen-remodel,5,Countertops,single,2,Laminate Tops,Budget tops,1000,2600,1,,,,,,
+Kitchen Remodel,kitchen-remodel,5,Countertops,single,3,Quartz Tops,Popular tops,3000,6750,1,,,,,,
+Kitchen Remodel,kitchen-remodel,5,Countertops,single,4,Stone Tops,Granite and Marble,5000,9250,1,,,,,,
+Kitchen Remodel,kitchen-remodel,6,Optional Add Ons,multiple,1,Island,Add island,3000,7000,1,,,,remodel-level,standard-remodel|full-remodel,any
+Kitchen Remodel,kitchen-remodel,6,Optional Add Ons,multiple,2,Electrical Updates,Lights outlets,1200,3000,1,,,,remodel-level,standard-remodel|full-remodel,any
+Kitchen Remodel,kitchen-remodel,6,Optional Add Ons,multiple,3,Plumbing Updates,Fixtures updates,1200,3000,1,,,,remodel-level,standard-remodel|full-remodel,any
+Kitchen Remodel,kitchen-remodel,6,Optional Add Ons,multiple,4,Tile Backsplash,Wall tile,900,2200,1,,,,,,
+Kitchen Remodel,kitchen-remodel,6,Optional Add Ons,multiple,5,New Sink and Faucet,Replace at same location,700,2500,1,,,,,,
+Other Trades,other-trades,1,Work Category,single,1,General Carpentry,Trim framing or wood repairs,300,1200,1,,,,,,
+Other Trades,other-trades,1,Work Category,single,2,Exterior Home Repair,Small exterior repair project,500,1800,1,,,,,,
+Other Trades,other-trades,1,Work Category,single,3,Installation or Assembly,Install or assemble household items,250,900,1,,,,,,
+Other Trades,other-trades,1,Work Category,single,4,Specialty Project or Not Listed,Another home improvement project,400,1500,1,,,,,,
+Other Trades,other-trades,2,Project Scope,single,1,Small Task,One limited task,0,300,1,,,,,,
+Other Trades,other-trades,2,Project Scope,single,2,Standard Project,Several hours or multiple tasks,800,2500,1,,,,,,
+Other Trades,other-trades,2,Project Scope,single,3,Larger Project,Multi-day or complex work,3000,8000,1,,,,,,
+Other Trades,other-trades,3,Optional Add Ons,multiple,1,Contractor-Supplied Materials,Common project materials,200,1500,1,,,,,,
+Other Trades,other-trades,3,Optional Add Ons,multiple,2,Haul-Away and Disposal,Remove project debris,150,900,1,,,,,,
+Other Trades,other-trades,3,Optional Add Ons,multiple,3,Multiple Trade Coordination,Coordinate more than one trade,800,3500,1,,,,,,
+Other Trades,other-trades,3,Optional Add Ons,multiple,4,Difficult Access or Site Protection,Protect surfaces or reach tight areas,300,1500,1,,,,,,
+Painting,painting,1,Painting Project,single,1,Single Room,One room,400,850,1,,,,,,
+Painting,painting,1,Painting Project,single,2,Interior Painting,Inside home,1800,4500,1,,,,,,
+Painting,painting,1,Painting Project,single,3,Exterior Painting,Outside home,3000,7750,1,,,,,,
+Painting,painting,2,Home Size,single,1,Small Home,Less area,0,700,1,painting-project,interior-painting|exterior-painting,any,,,
+Painting,painting,2,Home Size,single,2,Standard Home,Typical area,700,2000,1,painting-project,interior-painting|exterior-painting,any,,,
+Painting,painting,2,Home Size,single,3,Large Home,More area,1800,5000,1,painting-project,interior-painting|exterior-painting,any,,,
+Painting,painting,3,Prep Level,single,1,Basic Prep,Light prep,0,500,1,,,,,,
+Painting,painting,3,Prep Level,single,2,Standard Prep,Scrape patch,500,1800,1,,,,,,
+Painting,painting,3,Prep Level,single,3,Heavy Prep,More repairs,1800,5000,1,,,,,,
+Painting,painting,4,Optional Add Ons,multiple,1,Paint Room Ceiling,Ceiling in this room,250,650,1,,,,painting-project,single-room,any
+Painting,painting,4,Optional Add Ons,multiple,2,Paint Room Trim,Baseboards and trim,350,1100,1,,,,painting-project,single-room,any
+Painting,painting,4,Optional Add Ons,multiple,3,Accent Wall,One feature wall,150,450,1,,,,painting-project,single-room,any
+Painting,painting,4,Optional Add Ons,multiple,4,Paint Door and Frame,One door set,175,450,1,,,,painting-project,single-room,any
+Painting,painting,4,Optional Add Ons,multiple,5,Paint Interior Ceilings,Ceilings throughout,1000,3500,1,,,,painting-project,interior-painting,any
+Painting,painting,4,Optional Add Ons,multiple,6,Paint Interior Trim,Baseboards and trim,1200,4500,1,,,,painting-project,interior-painting,any
+Painting,painting,4,Optional Add Ons,multiple,7,Paint Interior Doors,Doors and frames,500,2200,1,,,,painting-project,interior-painting,any
+Painting,painting,4,Optional Add Ons,multiple,8,Paint Kitchen Cabinets,Refresh cabinets,3000,8500,1,,,,painting-project,interior-painting,any
+Painting,painting,4,Optional Add Ons,multiple,9,Paint Exterior Trim,Trim fascia and soffits,800,3500,1,,,,painting-project,exterior-painting,any
+Painting,painting,4,Optional Add Ons,multiple,10,Paint Exterior Door,One exterior door,200,650,1,,,,painting-project,exterior-painting,any
+Painting,painting,4,Optional Add Ons,multiple,11,Paint Garage Door,One garage door,300,900,1,,,,painting-project,exterior-painting,any
+Painting,painting,4,Optional Add Ons,multiple,12,Stain Deck,Clean and stain deck,600,2200,1,,,,painting-project,exterior-painting,any
+Plumbing,plumbing,1,Plumbing Project,single,1,Small Repair,Fix leak,180,750,1,,,,,,
+Plumbing,plumbing,1,Plumbing Project,single,2,Fixture Installation,Install or replace fixtures,350,900,1,,,,,,
+Plumbing,plumbing,1,Plumbing Project,single,3,Repipe or Pipe Replacement,Replace supply or drain lines,1500,3500,1,,,,,,
+Plumbing,plumbing,1,Plumbing Project,single,4,Water Heater Replacement,Replace or upgrade heater,900,2200,1,,,,,,
+Plumbing,plumbing,2,Scope,single,1,One Leak or Clog,Single plumbing issue,0,300,1,,,,plumbing-project,small-repair,any
+Plumbing,plumbing,2,Scope,single,2,Several Small Repairs,Multiple minor issues,300,1200,1,,,,plumbing-project,small-repair,any
+Plumbing,plumbing,2,Scope,single,3,Diagnostic and Repair,Find and repair the problem,250,1000,1,,,,plumbing-project,small-repair,any
+Plumbing,plumbing,2,Scope,single,4,Replace One Fixture,One sink toilet or faucet,0,500,1,,,,plumbing-project,fixture-installation,any
+Plumbing,plumbing,2,Scope,single,5,Install Several Fixtures,Multiple fixture updates,700,2500,1,,,,plumbing-project,fixture-installation,any
+Plumbing,plumbing,2,Scope,single,6,Move or Add Plumbing,New supply and drain location,1800,5000,1,,,,plumbing-project,fixture-installation,any
+Plumbing,plumbing,2,Scope,single,7,Localized Pipe Replacement,Replace one damaged section,0,1800,1,,,,plumbing-project,repipe-or-pipe-replacement,any
+Plumbing,plumbing,2,Scope,single,8,Partial Home Repipe,Replace several pipe runs,3500,9000,1,,,,plumbing-project,repipe-or-pipe-replacement,any
+Plumbing,plumbing,2,Scope,single,9,Whole-Home Repipe,Replace main supply piping,8000,18000,1,,,,plumbing-project,repipe-or-pipe-replacement,any
+Plumbing,plumbing,2,Scope,single,10,Standard Tank Replacement,Similar-size tank heater,0,800,1,,,,plumbing-project,water-heater-replacement,any
+Plumbing,plumbing,2,Scope,single,11,High-Efficiency Tank,Upgraded tank model,800,2000,1,,,,plumbing-project,water-heater-replacement,any
+Plumbing,plumbing,2,Scope,single,12,Tankless Conversion,Convert to tankless,2500,5500,1,,,,plumbing-project,water-heater-replacement,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,1,Drain Camera Inspection,Inspect the drain line,250,500,1,,,,plumbing-project,small-repair,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,2,Shutoff Valve Replacement,Replace worn shutoff valve,200,600,1,,,,plumbing-project,small-repair,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,3,Drain Cleaning,Clear a blocked drain,150,450,1,,,,plumbing-project,small-repair,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,4,Water Pressure Check,Test and adjust pressure,150,350,1,,,,plumbing-project,small-repair,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,5,New Fixture Shutoff Valves,Update fixture valves,200,600,1,,,,plumbing-project,fixture-installation,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,6,Supply and Drain Updates,Update fixture connections,300,1200,1,,,,plumbing-project,fixture-installation,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,7,Garbage Disposal Installation,Add or replace disposal,350,900,1,,,,plumbing-project,fixture-installation,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,8,Premium Fixture Allowance,Upgrade fixture selection,500,2500,1,,,,plumbing-project,fixture-installation,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,9,Main Water Shutoff Upgrade,Replace the main shutoff,500,1500,1,,,,plumbing-project,repipe-or-pipe-replacement,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,10,Pressure Regulator,Control home water pressure,500,1200,1,,,,plumbing-project,repipe-or-pipe-replacement,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,11,Drain Pipe Replacement,Add drain replacement work,2500,8000,1,,,,plumbing-project,repipe-or-pipe-replacement,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,12,Wall Repair Allowance,Patch plumbing access areas,1000,4000,1,,,,plumbing-project,repipe-or-pipe-replacement,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,13,Expansion Tank,Add thermal expansion control,300,700,1,,,,plumbing-project,water-heater-replacement,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,14,Drain Pan and Drain Line,Add leak protection,250,800,1,,,,plumbing-project,water-heater-replacement,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,15,Hot Water Recirculation Pump,Faster hot water delivery,900,2500,1,,,,plumbing-project,water-heater-replacement,any
+Plumbing,plumbing,3,Optional Add Ons,multiple,16,Utility Connection Update,Update gas or electrical supply,500,2000,1,,,,plumbing-project,water-heater-replacement,any
+Roofing,roofing,1,Roofing Project,single,1,Roof Repair,Fix area,400,1400,1,,,,,,
+Roofing,roofing,1,Roofing Project,single,2,Partial Roof,Section roof,2500,5750,1,,,,,,
+Roofing,roofing,1,Roofing Project,single,3,Full Roof,Replace roof,7000,12750,1,,,,,,
+Roofing,roofing,2,Roof Size,single,1,Small Roof,Small home,0,2500,1,roofing-project,partial-roof|full-roof,any,,,
+Roofing,roofing,2,Roof Size,single,2,Standard Roof,Typical home,2500,6000,1,roofing-project,partial-roof|full-roof,any,,,
+Roofing,roofing,2,Roof Size,single,3,Large Roof,Large home,5000,10000,1,roofing-project,partial-roof|full-roof,any,,,
+Roofing,roofing,3,Roof Material,single,1,Asphalt Shingles,Common roof,0,1500,1,roofing-project,partial-roof|full-roof,any,,,
+Roofing,roofing,3,Roof Material,single,2,Architectural Shingles,Better roof,1500,4000,1,roofing-project,partial-roof|full-roof,any,,,
+Roofing,roofing,3,Roof Material,single,3,Metal Roofing,Metal roof,7000,16250,1,roofing-project,partial-roof|full-roof,any,,,
+Roofing,roofing,4,Optional Add Ons,multiple,1,Tear Off,Remove old,1000,4000,1,roofing-project,partial-roof|full-roof,any,roofing-project,partial-roof|full-roof,any
+Roofing,roofing,4,Optional Add Ons,multiple,2,Sheathing Repair,Deck repair,800,4600,1,roofing-project,partial-roof|full-roof,any,,,
+Roofing,roofing,4,Optional Add Ons,multiple,3,Gutter Replacement,New gutters,700,2700,1,roofing-project,partial-roof|full-roof,any,roofing-project,full-roof,any
+Roofing,roofing,4,Optional Add Ons,multiple,4,Ventilation Upgrade,Roof vents,500,1950,1,roofing-project,partial-roof|full-roof,any,roofing-project,partial-roof|full-roof,any
+Siding,siding,1,Siding Project,single,1,Siding Repair,Fix area,600,2000,1,,,,,,
+Siding,siding,1,Siding Project,single,2,Partial Siding,One side,3000,7500,1,,,,,,
+Siding,siding,1,Siding Project,single,3,Full Siding,Whole home,8000,14750,1,,,,,,
+Siding,siding,2,Home Size,single,1,Small Home,Less siding,0,4000,1,siding-project,partial-siding|full-siding,any,,,
+Siding,siding,2,Home Size,single,2,Standard Home,Typical home,4000,9250,1,siding-project,partial-siding|full-siding,any,,,
+Siding,siding,2,Home Size,single,3,Large Home,More siding,8000,18000,1,siding-project,partial-siding|full-siding,any,,,
+Siding,siding,3,Siding Material,single,1,Vinyl Siding,Budget siding,0,2500,1,siding-project,partial-siding|full-siding,any,,,
+Siding,siding,3,Siding Material,single,2,Fiber Cement,Durable siding,2500,8000,1,siding-project,partial-siding|full-siding,any,,,
+Siding,siding,3,Siding Material,single,3,Cedar Siding,Wood siding,5000,14000,1,siding-project,partial-siding|full-siding,any,,,
+Siding,siding,4,Optional Add Ons,multiple,1,Remove Old Siding,Demo siding,1200,4800,1,siding-project,partial-siding|full-siding,any,siding-project,partial-siding|full-siding,any
+Siding,siding,4,Optional Add Ons,multiple,2,Trim Package,Exterior trim,800,3300,1,siding-project,partial-siding|full-siding,any,siding-project,partial-siding|full-siding,any
+Siding,siding,4,Optional Add Ons,multiple,3,Sheathing Repair,Wall repair,1000,4600,1,siding-project,partial-siding|full-siding,any,,,
+Siding,siding,4,Optional Add Ons,multiple,4,Paint Siding,Exterior paint,2000,6500,1,siding-project,partial-siding|full-siding,any,siding-project,partial-siding|full-siding,any
+Waterproofing,waterproofing,1,Waterproofing Area,single,1,Small Area,One area,900,2700,1,,,,,,
+Waterproofing,waterproofing,1,Waterproofing Area,single,2,Standard Basement,Typical basement,2500,5000,1,,,,,,
+Waterproofing,waterproofing,1,Waterproofing Area,single,3,Large Basement,More area,4500,7750,1,,,,,,
+Waterproofing,waterproofing,2,Waterproofing Type,single,1,Interior Waterproofing,Interior moisture-control system,0,0,1,,,,,,
+Waterproofing,waterproofing,2,Waterproofing Type,single,2,Exterior Waterproofing,Excavate and waterproof outside,2500,7500,1,,,,,,
+Waterproofing,waterproofing,2,Waterproofing Type,single,3,Foundation Drainage,Improve foundation water drainage,2000,6500,1,,,,,,
+Waterproofing,waterproofing,3,Optional Add Ons,multiple,1,Crack Repair,Seal foundation cracks,300,950,1,,,,waterproofing-type,interior-waterproofing|exterior-waterproofing|foundation-drainage,any
+Waterproofing,waterproofing,3,Optional Add Ons,multiple,2,Interior Vapor Barrier,Add interior moisture protection,500,1400,1,,,,waterproofing-type,interior-waterproofing,any
+Waterproofing,waterproofing,3,Optional Add Ons,multiple,3,Basement Dehumidifier,Control interior humidity,500,1500,1,,,,waterproofing-type,interior-waterproofing,any
+Waterproofing,waterproofing,3,Optional Add Ons,multiple,4,Sump Pump or Backup Pump,Add or upgrade water removal,900,3000,1,,,,waterproofing-type,interior-waterproofing|foundation-drainage,any
+Waterproofing,waterproofing,3,Optional Add Ons,multiple,5,Downspout Extensions,Move roof water away from home,300,1200,1,,,,waterproofing-type,exterior-waterproofing|foundation-drainage,any
+Waterproofing,waterproofing,3,Optional Add Ons,multiple,6,Yard Grading Improvement,Improve slope away from foundation,1000,5000,1,,,,waterproofing-type,exterior-waterproofing|foundation-drainage,any
+Windows,windows,1,Window Project,single,1,One Window,Replace one window,400,1050,1,,,,,,
+Windows,windows,1,Window Project,single,2,Several Windows,Replace two to five windows,1800,5500,1,,,,,,
+Windows,windows,1,Window Project,single,3,Whole-Home Windows,Replace six or more windows,6500,12500,1,,,,,,
+Windows,windows,2,Window Type,single,1,Vinyl Windows,Budget windows,0,1000,1,,,,,,
+Windows,windows,2,Window Type,single,2,Fiberglass Windows,Better windows,1500,4200,1,,,,,,
+Windows,windows,2,Window Type,single,3,Wood Windows,Premium wood,4000,10500,1,,,,,,
+Windows,windows,3,Install Type,single,1,Insert Replacement,Keep the existing frame,0,600,1,,,,,,
+Windows,windows,3,Install Type,single,2,Full-Frame Replacement,Replace window and frame,1000,3500,1,,,,,,
+Windows,windows,3,Install Type,single,3,New or Resized Opening,Change the wall opening,2500,7000,1,,,,,,
+Windows,windows,4,Optional Add Ons,multiple,1,Interior Trim Repair,Repair interior casing,300,1200,1,,,,,,
+Windows,windows,4,Optional Add Ons,multiple,2,Exterior Flashing Repair,Improve water protection,300,950,1,,,,,,
+Windows,windows,4,Optional Add Ons,multiple,3,Rot or Water Damage Repair,Repair damaged framing,500,2500,1,,,,,,
+Windows,windows,4,Optional Add Ons,multiple,4,Energy-Efficient Glass Upgrade,Improved insulated glass,500,2000,1,,,,,,
